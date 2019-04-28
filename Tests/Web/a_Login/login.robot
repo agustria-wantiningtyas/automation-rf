@@ -8,8 +8,8 @@ Resource        ../../../Resources/Web/General/setting_browser.robot
 
 
 *** Test Cases ***
-Open Bukalapak page
-        Given Open Bukalapak page
+Open Staging Bukalapak page
+        Given Open Staging Bukalapak page
 
 Fill in sign in form With Valid data
         when Fill in sign in form

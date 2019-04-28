@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190426 16:21:46.710" generator="Robot 3.1.1 (Python 2.7.16 on darwin)">
-<suite source="/Users/bukalapak/Documents/Kuliah/RF/ROBOT_FRAMEWORK/Phoenix/Tests/Web/a_Login/login.robot" id="s1" name="Login">
-<test id="s1-t1" name="Open Bukalapak page">
-<kw name="Given Open Bukalapak page" library="setting_browser">
+<robot rpa="false" generated="20190428 19:02:10.400" generator="Robot 3.1.1 (Python 2.7.16 on darwin)">
+<suite source="/Users/bukalapak/Documents/Kuliah/Skripsi/Agustria/Github/automation-rf/Tests/Web/a_Login/login.robot" id="s1" name="Login">
+<test id="s1-t1" name="Open Staging Bukalapak page">
+<kw name="Given Open Staging Bukalapak page" library="setting_browser">
 <kw name="Set Selenium Speed" library="Selenium2Library">
 <doc>Sets the delay that is waited after each Selenium command.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<status status="PASS" endtime="20190426 16:21:46.982" starttime="20190426 16:21:46.982"></status>
+<status status="PASS" endtime="20190428 19:02:10.632" starttime="20190428 19:02:10.632"></status>
 </kw>
 <kw name="Open Browser" library="Selenium2Library">
 <doc>Opens a new browser instance to the given ``url``.</doc>
 <arguments>
-<arg>${URL}</arg>
+<arg>${Staging_URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20190426 16:21:46.983" level="INFO">Opening browser 'chrome' to base url 'https://www.bukalapak.com'.</msg>
-<status status="PASS" endtime="20190426 16:21:53.311" starttime="20190426 16:21:46.982"></status>
+<msg timestamp="20190428 19:02:10.632" level="INFO">Opening browser 'chrome' to base url 'http://www.staging13.vm'.</msg>
+<status status="PASS" endtime="20190428 19:02:32.696" starttime="20190428 19:02:10.632"></status>
 </kw>
 <kw name="Set Window Size" library="Selenium2Library">
 <doc>Sets current windows size to given ``width`` and ``height``.</doc>
@@ -25,11 +25,11 @@
 <arg>1450</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" endtime="20190426 16:21:54.423" starttime="20190426 16:21:53.312"></status>
+<status status="PASS" endtime="20190428 19:02:33.812" starttime="20190428 19:02:32.697"></status>
 </kw>
-<status status="PASS" endtime="20190426 16:21:54.424" starttime="20190426 16:21:46.982"></status>
+<status status="PASS" endtime="20190428 19:02:33.813" starttime="20190428 19:02:10.631"></status>
 </kw>
-<status status="PASS" endtime="20190426 16:21:54.425" critical="yes" starttime="20190426 16:21:46.981"></status>
+<status status="PASS" endtime="20190428 19:02:33.813" critical="yes" starttime="20190428 19:02:10.631"></status>
 </test>
 <test id="s1-t2" name="Fill in sign in form With Valid data">
 <kw name="when Fill in sign in form" library="a_login">
@@ -38,24 +38,24 @@
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20190426 16:21:59.429" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20190426 16:21:59.429" starttime="20190426 16:21:54.428"></status>
+<msg timestamp="20190428 19:02:38.818" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190428 19:02:38.819" starttime="20190428 19:02:33.817"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${signin_menu}</arg>
 </arguments>
-<msg timestamp="20190426 16:21:59.430" level="INFO">Clicking element '//*[@id="login_link"]'.</msg>
-<status status="PASS" endtime="20190426 16:22:01.518" starttime="20190426 16:21:59.429"></status>
+<msg timestamp="20190428 19:02:38.819" level="INFO">Clicking element '//*[@id="login_link"]'.</msg>
+<status status="PASS" endtime="20190428 19:02:40.896" starttime="20190428 19:02:38.819"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20190426 16:22:01.519" level="INFO">Clicking element '//*[@id="user_session_username"]'.</msg>
-<status status="PASS" endtime="20190426 16:22:03.582" starttime="20190426 16:22:01.518"></status>
+<msg timestamp="20190428 19:02:40.897" level="INFO">Clicking element '//*[@id="user_session_username"]'.</msg>
+<status status="PASS" endtime="20190428 19:02:42.953" starttime="20190428 19:02:40.896"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -63,16 +63,16 @@
 <arg>${email}</arg>
 <arg>${uname}</arg>
 </arguments>
-<msg timestamp="20190426 16:22:03.583" level="INFO">Typing text 'agustriatyas.testdeal@gmail.com' into text field '//*[@id="user_session_username"]'.</msg>
-<status status="PASS" endtime="20190426 16:22:06.991" starttime="20190426 16:22:03.582"></status>
+<msg timestamp="20190428 19:02:42.954" level="INFO">Typing text 'kotaromonami' into text field '//*[@id="user_session_username"]'.</msg>
+<status status="PASS" endtime="20190428 19:02:46.102" starttime="20190428 19:02:42.953"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20190426 16:22:06.992" level="INFO">Clicking element '//*[@id="user_session_password"]'.</msg>
-<status status="PASS" endtime="20190426 16:22:09.058" starttime="20190426 16:22:06.991"></status>
+<msg timestamp="20190428 19:02:46.102" level="INFO">Clicking element '//*[@id="user_session_password"]'.</msg>
+<status status="PASS" endtime="20190428 19:02:48.156" starttime="20190428 19:02:46.102"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -80,12 +80,12 @@
 <arg>${password}</arg>
 <arg>${pass}</arg>
 </arguments>
-<msg timestamp="20190426 16:22:09.058" level="INFO">Typing text 'agustus9' into text field '//*[@id="user_session_password"]'.</msg>
-<status status="PASS" endtime="20190426 16:22:12.168" starttime="20190426 16:22:09.058"></status>
+<msg timestamp="20190428 19:02:48.157" level="INFO">Typing text 'enteraja' into text field '//*[@id="user_session_password"]'.</msg>
+<status status="PASS" endtime="20190428 19:02:51.243" starttime="20190428 19:02:48.156"></status>
 </kw>
-<status status="PASS" endtime="20190426 16:22:12.168" starttime="20190426 16:21:54.428"></status>
+<status status="PASS" endtime="20190428 19:02:51.243" starttime="20190428 19:02:33.816"></status>
 </kw>
-<status status="PASS" endtime="20190426 16:22:12.169" critical="yes" starttime="20190426 16:21:54.426"></status>
+<status status="PASS" endtime="20190428 19:02:51.243" critical="yes" starttime="20190428 19:02:33.814"></status>
 </test>
 <test id="s1-t3" name="Click button Sign In">
 <kw name="And click button sign in" library="a_login">
@@ -94,18 +94,12 @@
 <arguments>
 <arg>${button_masuk}</arg>
 </arguments>
-<msg timestamp="20190426 16:22:12.171" level="INFO">Clicking button '//*[@id="new_user_session"]/div[1]/div[5]/button[2]'.</msg>
-<kw name="Capture Page Screenshot" library="Selenium2Library">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20190426 16:22:16.009" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20190426 16:22:16.009" starttime="20190426 16:22:14.207"></status>
+<msg timestamp="20190428 19:02:51.247" level="INFO">Clicking button 'xpath=//*[@id="new_user_session"]/div[1]/div[5]/button'.</msg>
+<status status="PASS" endtime="20190428 19:02:56.337" starttime="20190428 19:02:51.246"></status>
 </kw>
-<msg timestamp="20190426 16:22:16.013" level="FAIL">Button with locator '//*[@id="new_user_session"]/div[1]/div[5]/button[2]' not found.</msg>
-<status status="FAIL" endtime="20190426 16:22:16.013" starttime="20190426 16:22:12.170"></status>
+<status status="PASS" endtime="20190428 19:02:56.337" starttime="20190428 19:02:51.246"></status>
 </kw>
-<status status="FAIL" endtime="20190426 16:22:16.013" starttime="20190426 16:22:12.170"></status>
-</kw>
-<status status="FAIL" endtime="20190426 16:22:16.014" critical="yes" starttime="20190426 16:22:12.169">Button with locator '//*[@id="new_user_session"]/div[1]/div[5]/button[2]' not found.</status>
+<status status="PASS" endtime="20190428 19:02:56.337" critical="yes" starttime="20190428 19:02:51.244"></status>
 </test>
 <test id="s1-t4" name="Dashboard page Bukalapak">
 <kw name="Then home page" library="a_login">
@@ -114,8 +108,8 @@
 <arguments>
 <arg>10s</arg>
 </arguments>
-<msg timestamp="20190426 16:22:26.017" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" endtime="20190426 16:22:26.018" starttime="20190426 16:22:16.015"></status>
+<msg timestamp="20190428 19:03:06.341" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20190428 19:03:06.341" starttime="20190428 19:02:56.339"></status>
 </kw>
 <kw name="Wait Until Element Contains" library="Selenium2Library">
 <doc>Waits until element ``locator`` contains ``text``.</doc>
@@ -123,29 +117,23 @@
 <arg>${logo}</arg>
 <arg>${text_logo}</arg>
 </arguments>
-<kw name="Capture Page Screenshot" library="Selenium2Library">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20190426 16:22:33.779" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20190426 16:22:33.779" starttime="20190426 16:22:32.117"></status>
+<status status="PASS" endtime="20190428 19:03:11.031" starttime="20190428 19:03:06.342"></status>
 </kw>
-<msg timestamp="20190426 16:22:33.780" level="FAIL">Element with locator 'xpath=//*[@id="reskinned_page"]/header/div[1]/div/div/div[1]/div/div[1]/h1' not found.</msg>
-<status status="FAIL" endtime="20190426 16:22:33.780" starttime="20190426 16:22:26.018"></status>
+<status status="PASS" endtime="20190428 19:03:11.032" starttime="20190428 19:02:56.339"></status>
 </kw>
-<status status="FAIL" endtime="20190426 16:22:33.780" starttime="20190426 16:22:16.015"></status>
-</kw>
-<status status="FAIL" endtime="20190426 16:22:33.781" critical="yes" starttime="20190426 16:22:16.014">Element with locator 'xpath=//*[@id="reskinned_page"]/header/div[1]/div/div/div[1]/div/div[1]/h1' not found.</status>
+<status status="PASS" endtime="20190428 19:03:11.032" critical="yes" starttime="20190428 19:02:56.338"></status>
 </test>
-<status status="FAIL" endtime="20190426 16:22:33.782" starttime="20190426 16:21:46.714"></status>
+<status status="PASS" endtime="20190428 19:03:11.034" starttime="20190428 19:02:10.402"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="2" pass="2">Critical Tests</stat>
-<stat fail="2" pass="2">All Tests</stat>
+<stat fail="0" pass="4">Critical Tests</stat>
+<stat fail="0" pass="4">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat fail="2" id="s1" name="Login" pass="2">Login</stat>
+<stat fail="0" id="s1" name="Login" pass="4">Login</stat>
 </suite>
 </statistics>
 <errors>

@@ -8,12 +8,12 @@ Library     Dialogs
 ${signin_menu}               //*[@id="login_link"]
 ${email}                     //*[@id="user_session_username"]
 ${password}                  //*[@id="user_session_password"]
-${button_masuk}              //*[@id="new_user_session"]/div[1]/div[5]/button[2]
+${button_masuk}              xpath=//*[@id="new_user_session"]/div[1]/div[5]/button
 ${logo}                         xpath=//*[@id="reskinned_page"]/header/div[1]/div/div/div[1]/div/div[1]/h1
 ${text_logo}                    Bukalapak
 #Akun Test
-${uname}                     agustriatyas.testdeal@gmail.com
-${pass}                      agustus9
+${uname}                     kotaromonami
+${pass}                      enteraja
 
 
 *** Keywords ***
