@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190426 15:12:31.534" generator="Robot 3.1.1 (Python 2.7.16 on darwin)">
+<suite source="/Users/bukalapak/Documents/Kuliah/RF/ROBOT_FRAMEWORK/Phoenix/Tests/Web/a_Login/login.robot" id="s1" name="Login">
+<test id="s1-t1" name="Open Bukalapak page">
+<kw name="Given Open Bukalapak page" library="setting_browser">
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<status status="PASS" endtime="20190426 15:12:31.810" starttime="20190426 15:12:31.810"></status>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20190426 15:12:31.811" level="INFO">Opening browser 'chrome' to base url 'https://www.bukalapak.com'.</msg>
+<status status="PASS" endtime="20190426 15:12:39.271" starttime="20190426 15:12:31.811"></status>
+</kw>
+<kw name="Set Window Size" library="Selenium2Library">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1450</arg>
+<arg>800</arg>
+</arguments>
+<status status="PASS" endtime="20190426 15:12:40.386" starttime="20190426 15:12:39.273"></status>
+</kw>
+<status status="PASS" endtime="20190426 15:12:40.387" starttime="20190426 15:12:31.810"></status>
+</kw>
+<status status="PASS" endtime="20190426 15:12:40.388" critical="yes" starttime="20190426 15:12:31.809"></status>
+</test>
+<test id="s1-t2" name="Fill in sign in form With Valid data">
+<kw name="when Fill in sign in form" library="a_login">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190426 15:12:45.395" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190426 15:12:45.396" starttime="20190426 15:12:40.394"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${signin_menu}</arg>
+</arguments>
+<msg timestamp="20190426 15:12:45.397" level="INFO">Clicking element '//*[@id="login_link"]'.</msg>
+<status status="PASS" endtime="20190426 15:12:47.486" starttime="20190426 15:12:45.396"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+</arguments>
+<msg timestamp="20190426 15:12:47.487" level="INFO">Clicking element '//*[@id="user_session_username"]'.</msg>
+<status status="PASS" endtime="20190426 15:12:49.550" starttime="20190426 15:12:47.486"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+<arg>${uname}</arg>
+</arguments>
+<msg timestamp="20190426 15:12:49.551" level="INFO">Typing text 'agustriatyas.testdeal@gmail.com' into text field '//*[@id="user_session_username"]'.</msg>
+<status status="PASS" endtime="20190426 15:12:52.839" starttime="20190426 15:12:49.550"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20190426 15:12:52.840" level="INFO">Clicking element '//*[@id="user_session_password"]'.</msg>
+<status status="PASS" endtime="20190426 15:12:54.909" starttime="20190426 15:12:52.840"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${password}</arg>
+<arg>${pass}</arg>
+</arguments>
+<msg timestamp="20190426 15:12:54.911" level="INFO">Typing text 'agustus9' into text field '//*[@id="user_session_password"]'.</msg>
+<status status="PASS" endtime="20190426 15:12:58.018" starttime="20190426 15:12:54.910"></status>
+</kw>
+<status status="PASS" endtime="20190426 15:12:58.018" starttime="20190426 15:12:40.393"></status>
+</kw>
+<status status="PASS" endtime="20190426 15:12:58.019" critical="yes" starttime="20190426 15:12:40.392"></status>
+</test>
+<test id="s1-t3" name="Click button Sign In">
+<kw name="And click button sign in" library="a_login">
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>${button_masuk}</arg>
+</arguments>
+<msg timestamp="20190426 15:12:58.022" level="INFO">Clicking button '//*[@id="new_user_session"]/div[1]/div[5]/button[2]'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190426 15:13:01.926" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20190426 15:13:01.926" starttime="20190426 15:13:00.067"></status>
+</kw>
+<msg timestamp="20190426 15:13:01.930" level="FAIL">Button with locator '//*[@id="new_user_session"]/div[1]/div[5]/button[2]' not found.</msg>
+<status status="FAIL" endtime="20190426 15:13:01.930" starttime="20190426 15:12:58.021"></status>
+</kw>
+<status status="FAIL" endtime="20190426 15:13:01.930" starttime="20190426 15:12:58.021"></status>
+</kw>
+<status status="FAIL" endtime="20190426 15:13:01.931" critical="yes" starttime="20190426 15:12:58.019">Button with locator '//*[@id="new_user_session"]/div[1]/div[5]/button[2]' not found.</status>
+</test>
+<test id="s1-t4" name="Dashboard page Bukalapak">
+<kw name="Then home page" library="a_login">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20190426 15:13:11.935" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20190426 15:13:11.936" starttime="20190426 15:13:01.932"></status>
+</kw>
+<kw name="Wait Until Element Contains" library="Selenium2Library">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>${logo}</arg>
+<arg>${text_logo}</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190426 15:13:11.953" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190426 15:13:11.953" starttime="20190426 15:13:11.943"></status>
+</kw>
+<msg timestamp="20190426 15:13:11.953" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190426 15:13:11.955" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190426 15:13:11.955" starttime="20190426 15:13:11.936"></status>
+</kw>
+<status status="FAIL" endtime="20190426 15:13:11.955" starttime="20190426 15:13:01.932"></status>
+</kw>
+<status status="FAIL" endtime="20190426 15:13:11.956" critical="yes" starttime="20190426 15:13:01.931">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</status>
+</test>
+<status status="FAIL" endtime="20190426 15:13:11.958" starttime="20190426 15:12:31.538"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="2" pass="2">Critical Tests</stat>
+<stat fail="2" pass="2">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="2" id="s1" name="Login" pass="2">Login</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190426 15:13:11.953" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+</errors>
+</robot>

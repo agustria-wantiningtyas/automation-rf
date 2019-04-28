@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190317 12:39:51.957" generator="Robot 3.1.1 (Python 2.7.16 on darwin)">
+<suite source="/Users/bukalapak/Documents/Kuliah/RF/ROBOT_FRAMEWORK/Phoenix/Tests/Web/a_Login/a.login.robot" id="s1" name="A.Login">
+<test id="s1-t1" name="Open Bukalapak page">
+<kw name="Given Open Bukalapak page" library="setting_browser">
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<status status="PASS" endtime="20190317 12:39:52.259" starttime="20190317 12:39:52.258"></status>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20190317 12:39:52.259" level="INFO">Opening browser 'chrome' to base url 'https://www.bukalapak.com'.</msg>
+<status status="PASS" endtime="20190317 12:39:59.794" starttime="20190317 12:39:52.259"></status>
+</kw>
+<kw name="Set Window Size" library="Selenium2Library">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1450</arg>
+<arg>800</arg>
+</arguments>
+<status status="PASS" endtime="20190317 12:40:00.909" starttime="20190317 12:39:59.796"></status>
+</kw>
+<status status="PASS" endtime="20190317 12:40:00.909" starttime="20190317 12:39:52.258"></status>
+</kw>
+<status status="PASS" endtime="20190317 12:40:00.910" critical="yes" starttime="20190317 12:39:52.257"></status>
+</test>
+<test id="s1-t2" name="Fill in sign in form With Valid data">
+<kw name="when Fill in sign in form" library="a_login">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190317 12:40:05.921" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190317 12:40:05.921" starttime="20190317 12:40:00.917"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${signin_menu}</arg>
+</arguments>
+<msg timestamp="20190317 12:40:05.923" level="INFO">Clicking element '//*[@id="login_link"]'.</msg>
+<status status="PASS" endtime="20190317 12:40:08.001" starttime="20190317 12:40:05.922"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+</arguments>
+<msg timestamp="20190317 12:40:08.002" level="INFO">Clicking element '//*[@id="user_session_username"]'.</msg>
+<status status="PASS" endtime="20190317 12:40:10.081" starttime="20190317 12:40:08.002"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+<arg>${uname}</arg>
+</arguments>
+<msg timestamp="20190317 12:40:10.082" level="INFO">Typing text 'kotaromonami' into text field '//*[@id="user_session_username"]'.</msg>
+<status status="PASS" endtime="20190317 12:40:13.249" starttime="20190317 12:40:10.082"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20190317 12:40:13.250" level="INFO">Clicking element '//*[@id="user_session_password"]'.</msg>
+<status status="PASS" endtime="20190317 12:40:15.337" starttime="20190317 12:40:13.250"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${password}</arg>
+<arg>${pass}</arg>
+</arguments>
+<msg timestamp="20190317 12:40:15.338" level="INFO">Typing text 'enteraja' into text field '//*[@id="user_session_password"]'.</msg>
+<status status="PASS" endtime="20190317 12:40:18.446" starttime="20190317 12:40:15.337"></status>
+</kw>
+<status status="PASS" endtime="20190317 12:40:18.446" starttime="20190317 12:40:00.916"></status>
+</kw>
+<status status="PASS" endtime="20190317 12:40:18.447" critical="yes" starttime="20190317 12:40:00.914"></status>
+</test>
+<test id="s1-t3" name="Click button Sign In">
+<kw name="And click button sign in" library="a_login">
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>${button_masuk}</arg>
+</arguments>
+<msg timestamp="20190317 12:40:18.450" level="INFO">Clicking button '//*[@id="new_user_session"]/div[1]/div[5]/button[3]'.</msg>
+<status status="PASS" endtime="20190317 12:40:23.931" starttime="20190317 12:40:18.450"></status>
+</kw>
+<status status="PASS" endtime="20190317 12:40:23.932" starttime="20190317 12:40:18.449"></status>
+</kw>
+<status status="PASS" endtime="20190317 12:40:23.932" critical="yes" starttime="20190317 12:40:18.448"></status>
+</test>
+<test id="s1-t4" name="Dashboard page Bukalapak">
+<kw name="Then home page" library="a_login">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20190317 12:40:33.937" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20190317 12:40:33.937" starttime="20190317 12:40:23.934"></status>
+</kw>
+<kw name="Wait Until Element Contains" library="Selenium2Library">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>${logo}</arg>
+<arg>${text_logo}</arg>
+</arguments>
+<status status="PASS" endtime="20190317 12:40:36.061" starttime="20190317 12:40:33.937"></status>
+</kw>
+<status status="PASS" endtime="20190317 12:40:36.061" starttime="20190317 12:40:23.934"></status>
+</kw>
+<kw name="Close Browser" library="Selenium2Library">
+<doc>Closes the current browser.</doc>
+<status status="PASS" endtime="20190317 12:40:37.155" starttime="20190317 12:40:36.062"></status>
+</kw>
+<status status="PASS" endtime="20190317 12:40:37.155" critical="yes" starttime="20190317 12:40:23.933"></status>
+</test>
+<status status="PASS" endtime="20190317 12:40:37.157" starttime="20190317 12:39:51.960"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="4">Critical Tests</stat>
+<stat fail="0" pass="4">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="A.Login" pass="4">A.Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
