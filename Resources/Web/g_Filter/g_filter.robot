@@ -40,11 +40,11 @@ ${alfamart}                  //*[@id="js-coupon-deals-user-app"]/div/section/div
 ${alfamart2}                 //*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[4]/div[2]/label/span
 ${ancol}                     //*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[4]/div[3]/label[2]/span
 ${ancol2}                    //*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[4]/div[2]/label/span
-${urutkan}                   //*[@id="coupon-deals__sort"]
+${urutkan}                   xpath=//*[@id="coupon-deals__sort"]
 ${termurah}                  //*[@id="coupon-deals__sort"]/option[2]
 ${termahal}                  //*[@id="coupon-deals__sort"]/option[3]
 
-${back_to_landing_page}      //*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a
+${back_to_landing_page}      //*[@id="js-coupon-deals-user-app"]/div/nav/div/ul/li[1]/a/span
 #Akun Test
 ${uname}                     kotaromonami
 ${pass}                      enteraja
@@ -59,30 +59,14 @@ ${kupon1}                   //*[@id="reskinned_page"]/div[4]/div[2]/div[2]/nav/a
 
 
 *** Keywords ***
-Fill in sign in form
-    sleep                           5s
-    Click Element                   ${signin_menu}
-    Click Element                   ${email}
-
-    Input Text                      ${email}         ${uname}
-    Click Element                   ${password}
-    Input Text                      ${password}         ${pass}
-
-Click button Sign In
-    click button                    ${button_masuk}
-
-Home page
-    sleep                           5s
-    wait until element contains     ${logo1}    ${text_logo1}
-
 Go to Kupon Menu
-    sleep                            5s
+    sleep                            4s
     Click Element                    ${e_voucher1}
-    sleep                            5s
+    sleep                            1s
     Click Element                    ${kupon1}
 
 Lokasi Penukaran Filter
-    sleep                            5s
+    sleep                            3s
     Click Element                    ${cari_semua}
     Click Element                    ${bandung}
     sleep                            2s
@@ -96,7 +80,7 @@ Lokasi Penukaran Filter
     Click Element                    ${bandung}
 
 Rentang Harga Filter
-    sleep                          5s
+    sleep                          3s
     Click Element                  ${min}
     Input Text                     ${min}   ${min_key}
     Click Element                  ${max}
@@ -120,7 +104,7 @@ Category Filter
     Click Element                   ${makanan}
 
 Merchant Filter
-    sleep                           5s
+    sleep                           3s
     Click Element                   ${alfamart}
     sleep                           2s
     Click Element                   ${alfamart2}
@@ -136,19 +120,8 @@ Urutkan
     Click Element                   ${termahal}
 
 Back To Landing Page
-    sleep                           5s
+    sleep                           3s
     Click Element                   ${back_to_landing_page}
 
-
-#Login User
-Home page Login User
-    sleep                           5s
-    wait until element contains     ${logo}    ${text_logo}
-
-Go to Kupon Menu Login User
-    sleep                            5s
-    Click Element                    ${e_voucher}
-    sleep                            5s
-    Click Element                    ${kupon}
 
 

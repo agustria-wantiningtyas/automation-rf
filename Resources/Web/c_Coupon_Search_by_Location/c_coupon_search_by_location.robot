@@ -27,9 +27,6 @@ ${detail}                    //*[@id="reskinned_page"]/div[4]/div/div[1]/div/sec
 ${detail_result}             //*[@id="reskinned_page"]/div[4]/div/div[1]/div/div/div/div[1]/div[1]/div/div/div[2]/h1
 ${detail_result_text}        Voucher Digital Bakmi Naga Rp. 250.000
 ${back_to_landing_page}      //*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a
-#Akun Test
-${uname}                     kotaromonami
-${pass}                      enteraja
 
 #Anonym User
 ${logo1}                    xpath=//*[@id="normal_page"]/header/div[1]/div/div/div[1]/div/div[1]/h1/a
@@ -58,13 +55,13 @@ Home page
     wait until element contains     ${logo1}    ${text_logo1}
 
 Go to Kupon Menu
-    sleep                            5s
+    sleep                            3s
     Click Element                    ${e_voucher1}
-    sleep                            5s
+    sleep                            3s
     Click Element                    ${kupon1}
 
 Coupon Search by Location
-    sleep                            5s
+    sleep                            3s
     Click Element                    ${pilih_lokasi_button}
     #sleep                            5s
     Click Element                    ${lokasi}
@@ -73,24 +70,13 @@ Coupon Search by Location
     #wait until element contains     ${result}    ${result_text}
 
 Coupon Detail
-    sleep                           5s
+    sleep                           3s
     Click Element                   ${detail}
-    wait until element contains     ${detail_result}    ${detail_result_text}
+    #wait until element contains     ${detail_result}    ${detail_result_text}
 
 Back To Landing Page
-    sleep                           5s
+    sleep                           3s
     Click Element                   ${back_to_landing_page}
 
-
-#Login User
-Home page Login User
-    sleep                           5s
-    wait until element contains     ${logo}    ${text_logo}
-
-Go to Kupon Menu Login User
-    sleep                            5s
-    Click Element                    ${e_voucher}
-    sleep                            5s
-    Click Element                    ${kupon}
 
 

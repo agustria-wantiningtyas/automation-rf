@@ -18,104 +18,94 @@ Resource        ../../../Resources/Web/h_Transaction/h_transaction.robot
 Open Bukalapak page
         Given Open Bukalapak page
 
-#Login
-#Fill in sign in form With Valid data
-#        when Fill in sign in form
-
-#Click button Sign In
-#        And click button sign in
-
-#Dashboard page Bukalapak
-#        Then home page
-
 #Coupon Search
-Go to Kupon Menu
+Go to Kupon Menu (Coupon Search)
         And b_coupon_search.Go to Kupon Menu
 
-Coupon Search
+Coupon Search (Coupon Search)
         And b_coupon_search.Coupon Search
 
-Coupon Detail
+Coupon Detail (Coupon Search)
         And b_coupon_search.Coupon Detail
 
-Back To Landing Page
+Back To Landing Page (Coupon Search)
         And b_coupon_search.Back To Landing Page
 
 #Coupon Search by Location
-Coupon Search by Location
+Coupon Search by Location (Coupon Search by Location)
         And c_coupon_search_by_location.Coupon Search by Location
 
-Coupon Detail
+Coupon Detail (Coupon Search by Location)
         And c_coupon_search_by_location.Coupon Detail
 
-Back To Landing Page
+Back To Landing Page (Coupon Search by Location)
         And c_coupon_search_by_location.Back To Landing Page
 
 #Product Category
-Coupon Category
+Coupon Category (Product Category)
         And d_product_category.Coupon Category
 
-Filter Category
+Filter Category (Product Category)
         And d_product_category.Filter Category
 
-Coupon Detail
+Coupon Detail (Product Category)
         And d_product_category.Coupon Detail
 
-Back To Landing Page
+Back To Landing Page (Product Category)
         And d_product_category.Back To Landing Page
 
 #Best Seller
-Coupon Best Seller
+Coupon Best Seller (Best Seller)
         And e_best_seller.Coupon Best Seller
 
-Back To Landing Page
+Back To Landing Page (Best Seller)
         And e_best_seller.Back To Landing Page
 
-Lihat Semua Best Seller
+Lihat Semua Best Seller (Best Seller)
         And e_best_seller.Lihat Semua Best Seller
 
-Coupon Detail
+Coupon Detail (Best Seller)
         And e_best_seller.Coupon Detail
 
-Back To Landing Page
+Back To Landing Page (Best Seller)
         And e_best_seller.Back To Landing Page
 
 #Popular Merchant
-Popular Merchant
+Popular Merchant (Popular Merchant)
         And f_popular_merchant.Popular Merchant
 
-Back To Landing Page
+Back To Landing Page (Popular Merchant)
         And f_popular_merchant.Back To Landing Page
 
-Lihat Semua Merchant
+Lihat Semua Merchant (Popular Merchant)
         And f_popular_merchant.Lihat Semua Merchant
 
-Cari Merchant
+Cari Merchant (Popular Merchant)
         And f_popular_merchant.Cari Merchant
 
-Merchant Detail
+Merchant Detail (Popular Merchant)
         And f_popular_merchant.Merchant Detail
 
-Back To Landing Page
+Back To Landing Page (Popular Merchant)
         And f_popular_merchant.Back To Landing Page
 
 #Filter
-Lokasi Penukaran Filter
+Lokasi Penukaran Filter (Filter)
         And g_filter.Lokasi Penukaran Filter
 
-Rentang Harga Filter
+Rentang Harga Filter (Filter)
         And g_filter.Rentang Harga Filter
 
-Category Filter
+Category Filter (Filter)
         And g_filter.Category Filter
 
-Merchant Filter
+Merchant Filter (Filter)
         And g_filter.Merchant Filter
 
-Urutkan
+Urutkan (Filter)
         And g_filter.Urutkan
 
-Back To Landing Page
+Back To Landing Page (Filter)
         And g_filter.Back To Landing Page
 
 #Transaction
