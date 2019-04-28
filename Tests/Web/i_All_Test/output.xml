@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190428 21:07:08.742" generator="Robot 3.1.1 (Python 2.7.16 on darwin)">
+<suite source="/Users/bukalapak/Documents/Kuliah/Skripsi/Agustria/Github/automation-rf/Tests/Web/i_All_Test/all_test.robot" id="s1" name="All Test">
+<test id="s1-t1" name="Open Bukalapak page">
+<kw name="Given Open Bukalapak page" library="setting_browser">
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<status status="PASS" endtime="20190428 21:07:08.928" starttime="20190428 21:07:08.927"></status>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${Prod_URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20190428 21:07:08.928" level="INFO">Opening browser 'chrome' to base url 'https://www.bukalapak.com'.</msg>
+<status status="PASS" endtime="20190428 21:10:09.363" starttime="20190428 21:07:08.928"></status>
+</kw>
+<kw name="Set Window Size" library="Selenium2Library">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1450</arg>
+<arg>800</arg>
+</arguments>
+<status status="PASS" endtime="20190428 21:10:10.602" starttime="20190428 21:10:09.366"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:10:10.603" starttime="20190428 21:07:08.927"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:10:10.604" critical="yes" starttime="20190428 21:07:08.926"></status>
+</test>
+<test id="s1-t2" name="Go to Kupon Menu (Coupon Search)">
+<kw name="And b_coupon_search.Go to Kupon Menu" library="b_coupon_search">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190428 21:10:15.610" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190428 21:10:15.611" starttime="20190428 21:10:10.609"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${e_voucher1}</arg>
+</arguments>
+<msg timestamp="20190428 21:10:15.611" level="INFO">Clicking element '//*[@id="normal_page"]/header/div[2]/div/div/div[1]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20190428 21:10:36.847" starttime="20190428 21:10:15.611"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190428 21:10:41.850" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190428 21:10:41.851" starttime="20190428 21:10:36.847"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${kupon1}</arg>
+</arguments>
+<msg timestamp="20190428 21:10:41.852" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div[2]/div[2]/nav/a[12]/div[2]'.</msg>
+<status status="PASS" endtime="20190428 21:11:30.373" starttime="20190428 21:10:41.851"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:11:30.373" starttime="20190428 21:10:10.608"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:11:30.373" critical="yes" starttime="20190428 21:10:10.607"></status>
+</test>
+<test id="s1-t3" name="Coupon Search (Coupon Search)">
+<kw name="And b_coupon_search.Coupon Search" library="b_coupon_search">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190428 21:11:35.379" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190428 21:11:35.379" starttime="20190428 21:11:30.376"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${cari_field}</arg>
+</arguments>
+<msg timestamp="20190428 21:11:35.380" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[1]/div/input'.</msg>
+<status status="PASS" endtime="20190428 21:11:37.460" starttime="20190428 21:11:35.380"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${cari_field}</arg>
+<arg>${cari_keyword}</arg>
+</arguments>
+<msg timestamp="20190428 21:11:37.462" level="INFO">Typing text 'Haagen' into text field '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[1]/div/input'.</msg>
+<status status="PASS" endtime="20190428 21:11:40.583" starttime="20190428 21:11:37.461"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${cari_button}</arg>
+</arguments>
+<msg timestamp="20190428 21:11:40.584" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[3]/input'.</msg>
+<status status="PASS" endtime="20190428 21:11:42.714" starttime="20190428 21:11:40.584"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190428 21:11:47.716" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190428 21:11:47.717" starttime="20190428 21:11:42.714"></status>
+</kw>
+<kw name="Wait Until Element Contains" library="Selenium2Library">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>${result}</arg>
+<arg>${result_text}</arg>
+</arguments>
+<status status="PASS" endtime="20190428 21:11:49.757" starttime="20190428 21:11:47.717"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:11:49.757" starttime="20190428 21:11:30.375"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:11:49.758" critical="yes" starttime="20190428 21:11:30.374"></status>
+</test>
+<test id="s1-t4" name="Coupon Detail (Coupon Search)">
+<kw name="And b_coupon_search.Coupon Detail" library="b_coupon_search">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190428 21:11:54.761" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190428 21:11:54.761" starttime="20190428 21:11:49.760"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${detail}</arg>
+</arguments>
+<msg timestamp="20190428 21:11:54.762" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/section/div[2]/div/div[2]/section/div/div/a/div[2]/div[1]/h3'.</msg>
+<status status="PASS" endtime="20190428 21:11:56.854" starttime="20190428 21:11:54.761"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:11:56.855" starttime="20190428 21:11:49.759"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:11:56.855" critical="yes" starttime="20190428 21:11:49.758"></status>
+</test>
+<test id="s1-t5" name="Back To Landing Page (Coupon Search)">
+<kw name="And b_coupon_search.Back To Landing Page" library="b_coupon_search">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190428 21:12:01.860" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190428 21:12:01.860" starttime="20190428 21:11:56.859"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${back_to_landing_page}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:01.861" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20190428 21:12:03.994" starttime="20190428 21:12:01.860"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:03.994" starttime="20190428 21:11:56.857"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:03.994" critical="yes" starttime="20190428 21:11:56.856"></status>
+</test>
+<test id="s1-t6" name="Coupon Search by Location (Coupon Search by Location)">
+<kw name="And c_coupon_search_by_location.Coupon Search by Location" library="c_coupon_search_by_location">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:12:07.000" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:12:07.000" starttime="20190428 21:12:03.997"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${pilih_lokasi_button}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:07.003" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[2]/select'.</msg>
+<status status="PASS" endtime="20190428 21:12:09.112" starttime="20190428 21:12:07.001"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${lokasi}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:09.112" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[2]/select/option[2]'.</msg>
+<status status="PASS" endtime="20190428 21:12:11.426" starttime="20190428 21:12:09.112"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${cari_button}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:11.427" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[3]/input'.</msg>
+<status status="PASS" endtime="20190428 21:12:13.781" starttime="20190428 21:12:11.427"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190428 21:12:18.783" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190428 21:12:18.783" starttime="20190428 21:12:13.781"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:18.783" starttime="20190428 21:12:03.997"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:18.784" critical="yes" starttime="20190428 21:12:03.995"></status>
+</test>
+<test id="s1-t7" name="Coupon Detail (Coupon Search by Location)">
+<kw name="And c_coupon_search_by_location.Coupon Detail" library="c_coupon_search_by_location">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:12:21.789" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:12:21.789" starttime="20190428 21:12:18.786"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${detail}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:21.790" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/section/div[2]/div/div[2]/section/div/div/a/div[2]/div[1]/h3'.</msg>
+<status status="PASS" endtime="20190428 21:12:23.882" starttime="20190428 21:12:21.790"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:23.883" starttime="20190428 21:12:18.786"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:23.883" critical="yes" starttime="20190428 21:12:18.785"></status>
+</test>
+<test id="s1-t8" name="Back To Landing Page (Coupon Search by Location)">
+<kw name="And c_coupon_search_by_location.Back To Landing Page" library="c_coupon_search_by_location">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:12:26.887" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:12:26.888" starttime="20190428 21:12:23.885"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${back_to_landing_page}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:26.888" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20190428 21:12:28.998" starttime="20190428 21:12:26.888"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:28.998" starttime="20190428 21:12:23.885"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:28.999" critical="yes" starttime="20190428 21:12:23.884"></status>
+</test>
+<test id="s1-t9" name="Coupon Category (Product Category)">
+<kw name="And d_product_category.Coupon Category" library="d_product_category">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:12:32.003" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:12:32.003" starttime="20190428 21:12:29.001"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${category}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:32.004" level="INFO">Clicking element '//*[@id="kategori-produk"]/nav/div[1]/a/div'.</msg>
+<status status="PASS" endtime="20190428 21:12:34.137" starttime="20190428 21:12:32.004"></status>
+</kw>
+<kw name="Wait Until Element Contains" library="Selenium2Library">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>${pilih_category}</arg>
+<arg>${pilih_category_text}</arg>
+</arguments>
+<status status="PASS" endtime="20190428 21:12:36.174" starttime="20190428 21:12:34.137"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:36.174" starttime="20190428 21:12:29.000"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:36.175" critical="yes" starttime="20190428 21:12:28.999"></status>
+</test>
+<test id="s1-t10" name="Filter Category (Product Category)">
+<kw name="And d_product_category.Filter Category" library="d_product_category">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:12:39.178" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:12:39.178" starttime="20190428 21:12:36.178"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${makanan}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:39.180" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[1]/span'.</msg>
+<status status="PASS" endtime="20190428 21:12:41.268" starttime="20190428 21:12:39.179"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${gaya_hidup}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:41.269" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[2]/span'.</msg>
+<status status="PASS" endtime="20190428 21:12:43.428" starttime="20190428 21:12:41.268"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20190428 21:12:44.429" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190428 21:12:44.429" starttime="20190428 21:12:43.428"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${gaya_hidup}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:44.430" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[2]/span'.</msg>
+<status status="PASS" endtime="20190428 21:12:46.490" starttime="20190428 21:12:44.429"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${kecantikan}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:46.491" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[3]/span'.</msg>
+<status status="PASS" endtime="20190428 21:12:48.578" starttime="20190428 21:12:46.490"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20190428 21:12:49.579" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190428 21:12:49.579" starttime="20190428 21:12:48.578"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${kecantikan}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:49.579" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[3]/span'.</msg>
+<status status="PASS" endtime="20190428 21:12:51.661" starttime="20190428 21:12:49.579"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${liburan}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:51.662" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[4]/span'.</msg>
+<status status="PASS" endtime="20190428 21:12:54.075" starttime="20190428 21:12:51.661"></status>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<msg timestamp="20190428 21:12:55.077" level="INFO">Slept 1 second</msg>
+<status status="PASS" endtime="20190428 21:12:55.077" starttime="20190428 21:12:54.075"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${liburan}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:55.078" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[4]/span'.</msg>
+<status status="PASS" endtime="20190428 21:12:57.146" starttime="20190428 21:12:55.078"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${makanan}</arg>
+</arguments>
+<msg timestamp="20190428 21:12:57.147" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[1]/span'.</msg>
+<status status="PASS" endtime="20190428 21:12:59.245" starttime="20190428 21:12:57.147"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:59.245" starttime="20190428 21:12:36.177"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:12:59.245" critical="yes" starttime="20190428 21:12:36.176"></status>
+</test>
+<test id="s1-t11" name="Coupon Detail (Product Category)">
+<kw name="And d_product_category.Coupon Detail" library="d_product_category">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:02.248" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:02.249" starttime="20190428 21:12:59.248"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${detail}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:02.249" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/section/div[2]/div/div[2]/section/div/div/a/div[2]/div[1]/h3'.</msg>
+<status status="PASS" endtime="20190428 21:13:04.342" starttime="20190428 21:13:02.249"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:04.343" starttime="20190428 21:12:59.247"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:04.343" critical="yes" starttime="20190428 21:12:59.246"></status>
+</test>
+<test id="s1-t12" name="Back To Landing Page (Product Category)">
+<kw name="And d_product_category.Back To Landing Page" library="d_product_category">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:06.347" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:06.347" starttime="20190428 21:13:04.346"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${back_to_landing_page}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:06.348" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20190428 21:13:08.474" starttime="20190428 21:13:06.347"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:08.474" starttime="20190428 21:13:04.346"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:08.474" critical="yes" starttime="20190428 21:13:04.344"></status>
+</test>
+<test id="s1-t13" name="Coupon Best Seller (Best Seller)">
+<kw name="And e_best_seller.Coupon Best Seller" library="e_best_seller">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:11.478" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:11.479" starttime="20190428 21:13:08.476"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${pilih_kupon}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:11.479" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div[2]/section[2]/div[2]/div[1]/a/div[2]/div[1]/h3'.</msg>
+<status status="PASS" endtime="20190428 21:13:13.584" starttime="20190428 21:13:11.479"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:13.584" starttime="20190428 21:13:08.476"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:13.584" critical="yes" starttime="20190428 21:13:08.475"></status>
+</test>
+<test id="s1-t14" name="Back To Landing Page (Best Seller)">
+<kw name="And e_best_seller.Back To Landing Page" library="e_best_seller">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:15.587" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:15.587" starttime="20190428 21:13:13.586"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${back_to_landing_page}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:15.588" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20190428 21:13:17.680" starttime="20190428 21:13:15.587"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:17.680" starttime="20190428 21:13:13.586"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:17.681" critical="yes" starttime="20190428 21:13:13.585"></status>
+</test>
+<test id="s1-t15" name="Lihat Semua Best Seller (Best Seller)">
+<kw name="And e_best_seller.Lihat Semua Best Seller">
+<msg timestamp="20190428 21:13:17.694" level="FAIL">No keyword with name 'And e_best_seller.Lihat Semua Best Seller' found.</msg>
+<status status="FAIL" endtime="20190428 21:13:17.694" starttime="20190428 21:13:17.694"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:17.695" critical="yes" starttime="20190428 21:13:17.682">No keyword with name 'And e_best_seller.Lihat Semua Best Seller' found.</status>
+</test>
+<test id="s1-t16" name="Coupon Detail (Best Seller)">
+<kw name="And e_best_seller.Coupon Detail">
+<msg timestamp="20190428 21:13:17.701" level="FAIL">No keyword with name 'And e_best_seller.Coupon Detail' found.</msg>
+<status status="FAIL" endtime="20190428 21:13:17.701" starttime="20190428 21:13:17.701"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:17.702" critical="yes" starttime="20190428 21:13:17.695">No keyword with name 'And e_best_seller.Coupon Detail' found.</status>
+</test>
+<test id="s1-t17" name="Back To Landing Page (Best Seller)">
+<kw name="And e_best_seller.Back To Landing Page" library="e_best_seller">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:19.705" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:19.705" starttime="20190428 21:13:17.703"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${back_to_landing_page}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:19.706" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:13:22.252" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-1.png"&gt;&lt;img src="selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20190428 21:13:22.252" starttime="20190428 21:13:20.721"></status>
+</kw>
+<msg timestamp="20190428 21:13:22.258" level="FAIL">Element with locator '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a' not found.</msg>
+<status status="FAIL" endtime="20190428 21:13:22.258" starttime="20190428 21:13:19.705"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:22.258" starttime="20190428 21:13:17.703"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:22.259" critical="yes" starttime="20190428 21:13:17.702">Element with locator '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a' not found.</status>
+</test>
+<test id="s1-t18" name="Popular Merchant (Popular Merchant)">
+<kw name="And f_popular_merchant.Popular Merchant" library="f_popular_merchant">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:25.262" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:25.263" starttime="20190428 21:13:22.260"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${merchant}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:25.264" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div[2]/section[3]/nav/div[1]/a'.</msg>
+<status status="PASS" endtime="20190428 21:13:27.860" starttime="20190428 21:13:25.263"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:27.860" starttime="20190428 21:13:22.260"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:27.861" critical="yes" starttime="20190428 21:13:22.259"></status>
+</test>
+<test id="s1-t19" name="Back To Landing Page (Popular Merchant)">
+<kw name="And f_popular_merchant.Back To Landing Page" library="f_popular_merchant">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:29.864" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:29.864" starttime="20190428 21:13:27.863"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${back_to_landing_page}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:29.865" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20190428 21:13:31.988" starttime="20190428 21:13:29.865"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:31.988" starttime="20190428 21:13:27.862"></status>
+</kw>
+<status status="PASS" endtime="20190428 21:13:31.988" critical="yes" starttime="20190428 21:13:27.861"></status>
+</test>
+<test id="s1-t20" name="Lihat Semua Merchant (Popular Merchant)">
+<kw name="And f_popular_merchant.Lihat Semua Merchant" library="f_popular_merchant">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:33.993" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:33.993" starttime="20190428 21:13:31.991"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${lihat_semua}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:33.994" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div[2]/section[2]/div[1]/a'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:13:36.726" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-2.png"&gt;&lt;img src="selenium-screenshot-2.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20190428 21:13:36.726" starttime="20190428 21:13:35.009"></status>
+</kw>
+<msg timestamp="20190428 21:13:36.726" level="FAIL">Element with locator '//*[@id="js-coupon-deals-user-app"]/div[2]/section[2]/div[1]/a' not found.</msg>
+<status status="FAIL" endtime="20190428 21:13:36.726" starttime="20190428 21:13:33.993"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:36.726" starttime="20190428 21:13:31.990"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:36.727" critical="yes" starttime="20190428 21:13:31.989">Element with locator '//*[@id="js-coupon-deals-user-app"]/div[2]/section[2]/div[1]/a' not found.</status>
+</test>
+<test id="s1-t21" name="Cari Merchant (Popular Merchant)">
+<kw name="And f_popular_merchant.Cari Merchant" library="f_popular_merchant">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:38.729" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:38.730" starttime="20190428 21:13:36.729"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${cari_merchant_field}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:38.731" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/div[1]/div/div/div[2]/div/div/input'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:13:41.474" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-3.png"&gt;&lt;img src="selenium-screenshot-3.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20190428 21:13:41.474" starttime="20190428 21:13:39.748"></status>
+</kw>
+<msg timestamp="20190428 21:13:41.475" level="FAIL">Element with locator '//*[@id="js-coupon-deals-user-app"]/div/div[1]/div/div/div[2]/div/div/input' not found.</msg>
+<status status="FAIL" endtime="20190428 21:13:41.475" starttime="20190428 21:13:38.730"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:41.475" starttime="20190428 21:13:36.728"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:41.475" critical="yes" starttime="20190428 21:13:36.727">Element with locator '//*[@id="js-coupon-deals-user-app"]/div/div[1]/div/div/div[2]/div/div/input' not found.</status>
+</test>
+<test id="s1-t22" name="Merchant Detail (Popular Merchant)">
+<kw name="And f_popular_merchant.Merchant Detail" library="f_popular_merchant">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:43.480" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:43.480" starttime="20190428 21:13:41.478"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${merchant_detail}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:43.481" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/div[2]/div/div/a'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:13:46.198" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-4.png"&gt;&lt;img src="selenium-screenshot-4.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20190428 21:13:46.198" starttime="20190428 21:13:44.496"></status>
+</kw>
+<msg timestamp="20190428 21:13:46.199" level="FAIL">Element with locator '//*[@id="js-coupon-deals-user-app"]/div/div[2]/div/div/a' not found.</msg>
+<status status="FAIL" endtime="20190428 21:13:46.199" starttime="20190428 21:13:43.481"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:46.199" starttime="20190428 21:13:41.478"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:46.199" critical="yes" starttime="20190428 21:13:41.477">Element with locator '//*[@id="js-coupon-deals-user-app"]/div/div[2]/div/div/a' not found.</status>
+</test>
+<test id="s1-t23" name="Back To Landing Page (Popular Merchant)">
+<kw name="And f_popular_merchant.Back To Landing Page" library="f_popular_merchant">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>2s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:48.202" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:48.202" starttime="20190428 21:13:46.201"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${back_to_landing_page}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:48.203" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:13:50.926" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-5.png"&gt;&lt;img src="selenium-screenshot-5.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status status="PASS" endtime="20190428 21:13:50.926" starttime="20190428 21:13:49.216"></status>
+</kw>
+<msg timestamp="20190428 21:13:50.927" level="FAIL">Element with locator '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a' not found.</msg>
+<status status="FAIL" endtime="20190428 21:13:50.927" starttime="20190428 21:13:48.202"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:50.927" starttime="20190428 21:13:46.201"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:50.927" critical="yes" starttime="20190428 21:13:46.200">Element with locator '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a' not found.</status>
+</test>
+<test id="s1-t24" name="Lokasi Penukaran Filter (Filter)">
+<kw name="And g_filter.Lokasi Penukaran Filter" library="g_filter">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:53.931" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:53.932" starttime="20190428 21:13:50.929"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${cari_semua}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:53.933" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div[2]/div/div/form/div[3]/input'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:13:55.145" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:13:55.145" starttime="20190428 21:13:55.135"></status>
+</kw>
+<msg timestamp="20190428 21:13:55.145" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:13:55.148" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:13:55.148" starttime="20190428 21:13:53.932"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:55.148" starttime="20190428 21:13:50.928"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:55.149" critical="yes" starttime="20190428 21:13:50.928">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</status>
+</test>
+<test id="s1-t25" name="Rentang Harga Filter (Filter)">
+<kw name="And g_filter.Rentang Harga Filter" library="g_filter">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:13:58.152" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:13:58.152" starttime="20190428 21:13:55.150"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${min}</arg>
+</arguments>
+<msg timestamp="20190428 21:13:58.153" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[2]/form/div[1]/input'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:13:58.162" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:13:58.162" starttime="20190428 21:13:58.158"></status>
+</kw>
+<msg timestamp="20190428 21:13:58.162" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:13:58.163" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:13:58.163" starttime="20190428 21:13:58.152"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:58.163" starttime="20190428 21:13:55.150"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:13:58.163" critical="yes" starttime="20190428 21:13:55.149">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</status>
+</test>
+<test id="s1-t26" name="Category Filter (Filter)">
+<kw name="And g_filter.Category Filter" library="g_filter">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:14:01.168" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:14:01.170" starttime="20190428 21:13:58.165"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${makanan}</arg>
+</arguments>
+<msg timestamp="20190428 21:14:01.170" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[1]/span'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:14:01.180" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:14:01.180" starttime="20190428 21:14:01.175"></status>
+</kw>
+<msg timestamp="20190428 21:14:01.181" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:14:01.181" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:14:01.181" starttime="20190428 21:14:01.170"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:14:01.181" starttime="20190428 21:13:58.165"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:14:01.181" critical="yes" starttime="20190428 21:13:58.164">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</status>
+</test>
+<test id="s1-t27" name="Merchant Filter (Filter)">
+<kw name="And g_filter.Merchant Filter" library="g_filter">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:14:04.184" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:14:04.184" starttime="20190428 21:14:01.183"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${alfamart}</arg>
+</arguments>
+<msg timestamp="20190428 21:14:04.185" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[4]/div[3]/label[1]/span'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:14:04.195" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:14:04.196" starttime="20190428 21:14:04.190"></status>
+</kw>
+<msg timestamp="20190428 21:14:04.196" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:14:04.196" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:14:04.196" starttime="20190428 21:14:04.185"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:14:04.197" starttime="20190428 21:14:01.183"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:14:04.197" critical="yes" starttime="20190428 21:14:01.182">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</status>
+</test>
+<test id="s1-t28" name="Urutkan (Filter)">
+<kw name="And g_filter.Urutkan" library="g_filter">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190428 21:14:09.199" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190428 21:14:09.200" starttime="20190428 21:14:04.198"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${urutkan}</arg>
+</arguments>
+<msg timestamp="20190428 21:14:09.201" level="INFO">Clicking element 'xpath=//*[@id="coupon-deals__sort"]'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:14:09.212" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:14:09.212" starttime="20190428 21:14:09.206"></status>
+</kw>
+<msg timestamp="20190428 21:14:09.212" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:14:09.214" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:14:09.214" starttime="20190428 21:14:09.200"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:14:09.214" starttime="20190428 21:14:04.198"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:14:09.215" critical="yes" starttime="20190428 21:14:04.197">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</status>
+</test>
+<test id="s1-t29" name="Back To Landing Page (Filter)">
+<kw name="And g_filter.Back To Landing Page" library="g_filter">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>3s</arg>
+</arguments>
+<msg timestamp="20190428 21:14:12.217" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190428 21:14:12.217" starttime="20190428 21:14:09.216"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${back_to_landing_page}</arg>
+</arguments>
+<msg timestamp="20190428 21:14:12.217" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
+<kw name="Capture Page Screenshot" library="Selenium2Library">
+<doc>Takes screenshot of the current page and embeds it into log file.</doc>
+<msg timestamp="20190428 21:14:12.229" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:14:12.229" starttime="20190428 21:14:12.224"></status>
+</kw>
+<msg timestamp="20190428 21:14:12.229" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:14:12.230" level="FAIL">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<status status="FAIL" endtime="20190428 21:14:12.230" starttime="20190428 21:14:12.217"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:14:12.230" starttime="20190428 21:14:09.216"></status>
+</kw>
+<status status="FAIL" endtime="20190428 21:14:12.230" critical="yes" starttime="20190428 21:14:09.215">NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</status>
+</test>
+<status status="FAIL" endtime="20190428 21:14:12.236" starttime="20190428 21:07:08.746"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="13" pass="16">Critical Tests</stat>
+<stat fail="13" pass="16">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="13" id="s1" name="All Test" pass="16">All Test</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20190428 21:13:17.702" level="WARN">Multiple test cases with name 'Back To Landing Page (Best Seller)' executed in test suite 'All Test'.</msg>
+<msg timestamp="20190428 21:13:46.200" level="WARN">Multiple test cases with name 'Back To Landing Page (Popular Merchant)' executed in test suite 'All Test'.</msg>
+<msg timestamp="20190428 21:13:55.145" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:13:58.162" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:14:01.181" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:14:04.196" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:14:09.212" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+<msg timestamp="20190428 21:14:12.229" level="WARN">Keyword 'Capture Page Screenshot' could not be run on failure: NoSuchWindowException: Message: no such window: window was already closed
+  (Session info: chrome=73.0.3683.103)
+  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
+</msg>
+</errors>
+</robot>

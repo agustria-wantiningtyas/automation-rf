@@ -3,77 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4e7e4691-7a30-4b4f-9bae-f12017276531" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/c_Coupon_Search_by_Location/c_coupon_search_by_location.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/c_Coupon_Search_by_Location/c_coupon_search_by_location.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/d_Product_Category/d_product_category.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/d_Product_Category/d_product_category.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/e_Best_Seller/e_best_seller.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/e_Best_Seller/e_best_seller.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/f_Popular_Merchant/f_popular_merchant.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/f_Popular_Merchant/f_popular_merchant.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/g_Filter/g_filter.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/g_Filter/g_filter.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/coupon_search_by_location.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/coupon_search_by_location.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/selenium-screenshot-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/selenium-screenshot-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/selenium-screenshot-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/selenium-screenshot-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/selenium-screenshot-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/selenium-screenshot-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/selenium-screenshot-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/selenium-screenshot-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/d_Product_Category/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/d_Product_Category/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/product_category.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/d_Product_Category/product_category.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/d_Product_Category/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/selenium-screenshot-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/selenium-screenshot-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/best_seller.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/best_seller.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/selenium-screenshot-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/selenium-screenshot-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/popular_merchant.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/popular_merchant.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/selenium-screenshot-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/selenium-screenshot-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/filter.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/g_Filter/filter.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/g_Filter/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/g_Filter/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/g_Filter/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/selenium-screenshot-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/selenium-screenshot-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/selenium-screenshot-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/selenium-screenshot-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/selenium-screenshot-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/selenium-screenshot-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/selenium-screenshot-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/selenium-screenshot-9.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-13.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-14.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-15.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-9.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubagustria" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/githubagustria.pub" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +28,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Web/i_All_Test/i_all_test.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="345">
+              <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
@@ -109,8 +40,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="608">
+              <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
               <folding>
                 <element signature="e#0#796#0" expanded="true" />
               </folding>
@@ -237,13 +168,6 @@
               <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
               <item name="Web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation-rf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="g_Filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="automation-rf" type="b2602c69:ProjectViewProjectNode" />
@@ -385,12 +309,12 @@
       <workItem from="1556453021246" duration="1576000" />
       <workItem from="1556455935976" duration="1595000" />
       <workItem from="1556457790861" duration="1618000" />
-      <workItem from="1556459615773" duration="636000" />
+      <workItem from="1556459615773" duration="1112000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51694000" />
+    <option name="totallyTimeSpent" value="52170000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -405,7 +329,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24678111" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -416,7 +340,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921812" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.444206" visible="true" weight="0.3253012" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.444206" visible="true" weight="0.3253012" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.555794" side_tool="true" weight="0.3251029" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49713877" weight="0.32784638" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -687,7 +611,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Web/i_All_Test/i_all_test.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="345">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
           </folding>
@@ -696,8 +621,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="608">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
           <folding>
             <element signature="e#0#796#0" expanded="true" />
           </folding>

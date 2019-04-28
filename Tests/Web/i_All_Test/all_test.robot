@@ -58,7 +58,7 @@ Back To Landing Page (Product Category)
 Coupon Best Seller (Best Seller)
         And e_best_seller.Coupon Best Seller
 
-Back To Landing Page (Best Seller)
+Landing Page (Best Seller)
         And e_best_seller.Back To Landing Page
 
 Lihat Semua Best Seller (Best Seller)
@@ -74,7 +74,7 @@ Back To Landing Page (Best Seller)
 Popular Merchant (Popular Merchant)
         And f_popular_merchant.Popular Merchant
 
-Back To Landing Page (Popular Merchant)
+Landing Page (Popular Merchant)
         And f_popular_merchant.Back To Landing Page
 
 Lihat Semua Merchant (Popular Merchant)
