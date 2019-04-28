@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4e7e4691-7a30-4b4f-9bae-f12017276531" name="Default" comment="" />
+    <list default="true" id="4e7e4691-7a30-4b4f-9bae-f12017276531" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/coupon_search.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/coupon_search.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-20.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-21.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-22.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/selenium-screenshot-9.png" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Resources/Web/a_Login/a_login.robot">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="825">
+              <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
@@ -37,11 +67,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Tests/Web/a_Login/login.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="18" selection-start-line="18" selection-end-line="18" />
+            <state relative-caret-position="75">
+              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="21" selection-end-column="22" />
               <folding>
                 <element signature="e#0#254#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Tests/Web/b_Coupon_Search/coupon_search.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="488">
+              <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
             </state>
           </provider>
         </entry>
@@ -75,6 +114,7 @@
       <find>logo</find>
       <find>Go to Kupon Menu</find>
       <find>back_to_landing_page</find>
+      <find>detail_result_text</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -115,7 +155,6 @@
         <option value="$PROJECT_DIR$/Resources/Web/Coupon_Search_by_Location/coupon_search_by_location.robot" />
         <option value="$PROJECT_DIR$/Tests/Web/Coupon_Search_by_Location/coupon_search_by_location.robot" />
         <option value="$PROJECT_DIR$/email.html" />
-        <option value="$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot" />
         <option value="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/coupon_search_by_location.robot" />
         <option value="$PROJECT_DIR$/Resources/Web/c_Coupon_Search_by_Location/c_coupon_search_by_location.robot" />
         <option value="$PROJECT_DIR$/Tests/Web/d_Product_Category/product_category.robot" />
@@ -132,6 +171,8 @@
         <option value="$PROJECT_DIR$/Resources/Web/General/setting_browser.robot" />
         <option value="$PROJECT_DIR$/Tests/Web/a_Login/login.robot" />
         <option value="$PROJECT_DIR$/Resources/Web/a_Login/a_login.robot" />
+        <option value="$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot" />
+        <option value="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/coupon_search.robot" />
       </list>
     </option>
   </component>
@@ -172,13 +213,6 @@
             <path>
               <item name="automation-rf" type="b2602c69:ProjectViewProjectNode" />
               <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="General" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation-rf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -186,13 +220,6 @@
               <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
               <item name="Web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation-rf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="a_Login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,12 +333,13 @@
       <workItem from="1556420339824" duration="1411000" />
       <workItem from="1556422516039" duration="1050000" />
       <workItem from="1556452277222" duration="677000" />
-      <workItem from="1556453021246" duration="257000" />
+      <workItem from="1556453021246" duration="1576000" />
+      <workItem from="1556455935976" duration="281000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46526000" />
+    <option name="totallyTimeSpent" value="48126000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -326,7 +354,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676682" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23962805" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -388,16 +416,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
           <caret line="31" column="21" lean-forward="true" selection-start-line="31" selection-start-column="21" selection-end-line="31" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="22" column="76" lean-forward="true" selection-start-line="22" selection-start-column="76" selection-end-line="22" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -507,16 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Web/b_Coupon_Search/coupon_search.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="359">
-          <caret line="24" column="29" lean-forward="true" selection-start-line="24" selection-start-column="29" selection-end-line="33" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#270#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/coupon_search_by_location.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -584,8 +592,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Web/a_Login/selenium-screenshot-4.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/Tests/Web/a_Login/selenium-screenshot-4.png" />
+    <entry file="file://$PROJECT_DIR$/Resources/Web/a_Login/a_login.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="51" lean-forward="true" selection-start-line="29" selection-start-column="51" selection-end-line="29" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Web/General/setting_browser.robot">
       <provider selected="true" editor-type-id="text-editor">
@@ -597,10 +613,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="57" column="1" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Web/a_Login/login.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="75">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="21" selection-end-column="22" />
           <folding>
             <element signature="e#0#254#0" expanded="true" />
           </folding>
@@ -614,13 +640,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/a_Login/a_login.robot">
+    <entry file="file://$PROJECT_DIR$/Tests/Web/b_Coupon_Search/coupon_search.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="488">
+          <caret line="51" column="33" lean-forward="true" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
         </state>
       </provider>
     </entry>

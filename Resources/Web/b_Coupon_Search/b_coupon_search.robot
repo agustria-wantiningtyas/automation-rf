@@ -15,13 +15,13 @@ ${text_logo}                 Bukalapak
 ${e_voucher}                 //*[@id="reskinned_page"]/header/div[2]/div/div/div[1]/div/ul/li[1]/a
 ${kupon}                     //*[@id="reskinned_page"]/div[4]/div[2]/div[2]/nav/a[12]/div[2]
 ${cari_field}                //*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[1]/div/input
-${cari_keyword}              ancol
+${cari_keyword}              Haagen
 ${cari_button}               //*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[3]/input
 ${result}                    xpath=//*[@id="reskinned_page"]/div[4]/div/div[1]/div/section/div[1]/div/div/div[1]/h1
-${result_text}               Hasil Pencarian “ancol”
+${result_text}               Hasil Pencarian “Haagen”
 ${detail}                    //*[@id="reskinned_page"]/div[4]/div/div[1]/div/section/div[2]/div/div[2]/section/div/div/a/div[2]/div[1]/h3
 ${detail_result}             //*[@id="reskinned_page"]/div[4]/div/div[1]/div/div/div/div[1]/div[1]/div/div/div[2]/h1
-${detail_result_text}        Voucher Digital Ancol Entrance Gate
+${detail_result_text}        Voucher Digital Haagen Dazs Rp. 500.000
 ${back_to_landing_page}      //*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a
 #Akun Test
 ${uname}                     kotaromonami
@@ -37,21 +37,21 @@ ${kupon1}                   //*[@id="reskinned_page"]/div[4]/div[2]/div[2]/nav/a
 
 
 *** Keywords ***
-Fill in sign in form
-    sleep                           5s
-    Click Element                   ${signin_menu}
-    Click Element                   ${email}
+#Fill in sign in form
+#    sleep                           5s
+#    Click Element                   ${signin_menu}
+#    Click Element                   ${email}
 
-    Input Text                      ${email}         ${uname}
-    Click Element                   ${password}
-    Input Text                      ${password}         ${pass}
+#    Input Text                      ${email}         ${uname}
+#    Click Element                   ${password}
+#    Input Text                      ${password}         ${pass}
 
-Click button Sign In
-    click button                    ${button_masuk}
+#Click button Sign In
+#    click button                    ${button_masuk}
 
-Home page
-    sleep                           5s
-    wait until element contains     ${logo1}    ${text_logo1}
+#Home page
+#    sleep                           5s
+#    wait until element contains     ${logo1}    ${text_logo1}
 
 Go to Kupon Menu
     sleep                            5s
@@ -70,7 +70,7 @@ Coupon Search
 Coupon Detail
     sleep                           5s
     Click Element                   ${detail}
-    wait until element contains     ${detail_result}    ${detail_result_text}
+    #wait until element contains     ${detail_result}    ${detail_result_text}
 
 Back To Landing Page
     sleep                           5s
