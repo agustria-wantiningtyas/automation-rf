@@ -43,13 +43,13 @@ Go to Kupon Menu
     Click Element                    ${kupon1}
 
 Popular Merchant
-    sleep                            3s
+    sleep                            2s
     Click Element                    ${merchant}
 
 Lihat Semua Merchant
     sleep                          2s
     Click Element                  ${lihat_semua}
-    wait until element contains    ${semua_merchant}       ${semua_merchant_text}
+    #wait until element contains    ${semua_merchant}       ${semua_merchant_text}
 
 Cari Merchant
     sleep                           2s

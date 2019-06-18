@@ -9,17 +9,16 @@ Resource        ../../../Resources/Web/General/setting_browser.robot
 
 
 *** Test Cases ***
-#Anonymous User
-Open Bukalapak page
+1. Open Bukalapak page
         Given Open Bukalapak page
 
-Go to Kupon Menu
+2. Go to Kupon Menu
         When Go to Kupon Menu
 
-Coupon Best Seller
+3. Coupon Best Seller
         And Coupon Best Seller
 
-Back To Landing Page
+4. Back To Landing Page
         And Back To Landing Page
 
 #Login User

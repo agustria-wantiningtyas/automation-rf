@@ -9,32 +9,31 @@ Resource        ../../../Resources/Web/General/setting_browser.robot
 
 
 *** Test Cases ***
-#Anonymouse User
-Open Bukalapak page
+1. Open Bukalapak page
         Given Open Bukalapak page
 
-Go to Kupon Menu
+2. Go to Kupon Menu
         When Go to Kupon Menu
 
-Coupon Category
+3. Coupon Category
         And Coupon Category
 
-Filter Category
+4. Filter Category
         And Filter Category
 
-Coupon Detail
+5. Coupon Detail
         And Coupon Detail
 
-Back To Landing Page
+6. Back To Landing Page
         And Back To Landing Page
 
-Lihat Semua Kupon
+7. Lihat Semua Kupon
         And Lihat Semua Kupon
 
-Coupon Detail
+8. Coupon Detail
         And Coupon Detail
 
-Back To Landing Page
+9. Back To Landing Page
         Then Back To Landing Page
 
 

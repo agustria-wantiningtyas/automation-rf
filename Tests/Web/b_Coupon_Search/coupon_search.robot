@@ -9,44 +9,17 @@ Resource        ../../../Resources/Web/General/setting_browser.robot
 
 
 *** Test Cases ***
-#Anonymouse User
-Open Bukalapak page
+1. Open Bukalapak page
         Given Open Bukalapak page
 
-Go to Kupon Menu
+2. Go to Kupon Menu
         When Go to Kupon Menu
 
-Coupon Search
+3. Coupon Search
         And Coupon Search
 
-Coupon Detail
+4. Coupon Detail
         And Coupon Detail
 
-Back To Landing Page
+5. Back To Landing Page
         And Back To Landing Page
-
-
-#Login User
-#Open Staging Bukalapak page
-#        Given Open Staging Bukalapak page
-
-#Fill in sign in form With Valid data
-#        when Fill in sign in form
-
-#Click button Sign In
-#        And click button sign in
-
-#Dashboard page Bukalapak
-#        Then home page
-
-#Go to Kupon Menu
-#        When Go to Kupon Menu
-
-#Coupon Search
-#        And Coupon Search
-
-#Coupon Detail
-#        And Coupon Detail
-
-#Back To Landing Page
-#        And Back To Landing Page

@@ -19,7 +19,7 @@ Open Bukalapak page
 
 Open Staging Bukalapak page
     set selenium speed              1s
-    Open Browser                    ${Staging_URL}          ${Browser}
+    Open Browser                    ${Prod_URL}          ${Browser}
     set window size                 1450    800
 
 Open page "${PathURL}"

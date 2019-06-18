@@ -27,6 +27,7 @@ ${result_text}               Hasil Pencarian “oyo”
 ${detail}                    //*[@id="reskinned_page"]/div[4]/div/div[1]/div/section/div[2]/div/div[2]/section/div/div[1]/a/div[2]/div[1]/h3
 #${detail_result}             //*[@id="reskinned_page"]/div[4]/div/div[1]/div/div/div/div[1]/div[1]/div/div/div[2]/h1
 #${detail_result_text}        Voucher Digital Bakmi Naga Rp. 250.000
+${tnc}                       //*[@id="coupon-deal-detail-term-and-condition"]
 ${back_to_landing_page}      //*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a
 
 #Anonym User
@@ -46,8 +47,9 @@ Go to Kupon Menu
     Click Element                    ${kupon1}
 
 Coupon Best Seller
-    sleep                            3s
+    sleep                            2s
     Click Element                    ${pilih_kupon}
+    Click Element                    ${tnc}
     #wait until element contains      ${coupon_best_seller}       ${coupon_best_seller_text}
 
 #Lihat Semua Best Seller

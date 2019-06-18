@@ -9,29 +9,28 @@ Resource        ../../../Resources/Web/General/setting_browser.robot
 
 
 *** Test Cases ***
-#Anonymouse User
-Open Bukalapak page
+1. Open Bukalapak page
         Given Open Bukalapak page
 
-Go to Kupon Menu
+2. Go to Kupon Menu
         When Go to Kupon Menu
 
-Popular Merchant
+3. Popular Merchant
         And Popular Merchant
 
-Landing Page
+4. Landing Page
         And Back To Landing Page
 
-Lihat Semua Merchant
+5. Lihat Semua Merchant
         And Lihat Semua Merchant
 
-Cari Merchant
+6. Cari Merchant
         And Cari Merchant
 
-Merchant Detail
+7. Merchant Detail
         And Merchant Detail
 
-Back To Landing Page
+8. Back To Landing Page
         Then Back To Landing Page
 
 

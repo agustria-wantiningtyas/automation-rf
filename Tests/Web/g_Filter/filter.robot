@@ -9,29 +9,28 @@ Resource        ../../../Resources/Web/General/setting_browser.robot
 
 
 *** Test Cases ***
-#Anonymous User
-Open Bukalapak page
+1. Open Bukalapak page
         Given Open Bukalapak page
 
-Go to Kupon Menu
+2. Go to Kupon Menu
         When Go to Kupon Menu
 
-Lokasi Penukaran Filter
+3. Lokasi Penukaran Filter
         And Lokasi Penukaran Filter
 
-Urutkan
+4. Urutkan
         And Urutkan
 
-Rentang Harga Filter
+5. Rentang Harga Filter
         And Rentang Harga Filter
 
-Category Filter
+6. Category Filter
         And Category Filter
 
-Merchant Filter
+7. Merchant Filter
         And Merchant Filter
 
-Back To Landing Page
+8. Back To Landing Page
         And Back To Landing Page
 
 

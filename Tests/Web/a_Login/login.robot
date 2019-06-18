@@ -8,15 +8,15 @@ Resource        ../../../Resources/Web/General/setting_browser.robot
 
 
 *** Test Cases ***
-Open Staging Bukalapak page
-        Given Open Staging Bukalapak page
+1. Open Bukalapak page
+        Given Open Bukalapak page
 
-Fill in sign in form With Valid data
+2. Fill in sign in form with Valid data
         when Fill in sign in form
 
-Click button Sign In
+3. Click button Sign In
         And click button sign in
 
-Dashboard page Bukalapak
+4. Dashboard page Bukalapak
         Then home page
         #close browser
