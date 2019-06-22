@@ -9,24 +9,24 @@ Resource        ../../../Resources/Web/General/setting_browser.robot
 
 *** Test Cases ***
 #Login
-Open Bukalapak page
+1. Open Bukalapak page
         Given Open Bukalapak page
 
-Fill in sign in form With Valid data
-        when a_login.Fill in sign in form
+2. Fill in sign in form with Valid data
+        when a_Login.Fill in sign in form
 
-Click button Sign In
-        And a_login.click button sign in
+3. Click button Sign In
+        And a_Login.click button sign in
 
-Dashboard page Bukalapak
-        Then a_login.home page
+4. Dashboard page Bukalapak
+        Then a_Login.home page
 
 #Coupon Menu
-Login_Go to Kupon Menu (Coupon Search)
+5. Go to Kupon Menu
         And b_coupon_search.Login_Go to Kupon Menu
 
 #Transaction
-Normal Flow Transaction
+6. Normal Flow Transaction
         And Normal Flow Transaction
 
 

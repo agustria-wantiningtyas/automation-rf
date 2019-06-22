@@ -108,3 +108,8 @@ Resource        ../../../Resources/Web/h_Transaction/h_transaction.robot
         #And g_filter.Back To Landing Page
 
 #Transaction
+8a. Transaction - Go To Coupon Menu
+        And b_coupon_search.Login_Go to Kupon Menu
+
+8b. Transaction - Create Transaction
+        And h_transaction.Normal Flow Transaction
