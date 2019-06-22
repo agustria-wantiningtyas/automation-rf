@@ -3,31 +3,54 @@
   <component name="ChangeListManager">
     <list default="true" id="4e7e4691-7a30-4b4f-9bae-f12017276531" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/General/setting_browser.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/General/setting_browser.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/a_Login/a_login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/a_Login/a_login.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/c_Coupon_Search_by_Location/c_coupon_search_by_location.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/c_Coupon_Search_by_Location/c_coupon_search_by_location.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/e_Best_Seller/e_best_seller.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/e_Best_Seller/e_best_seller.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Resources/Web/f_Popular_Merchant/f_popular_merchant.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/f_Popular_Merchant/f_popular_merchant.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Resources/Web/h_Transaction/h_transaction.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/h_Transaction/h_transaction.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Resources/Web/g_Filter/g_filter.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Resources/Web/g_Filter/g_filter.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Web/a_Login/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/a_Login/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/a_Login/login.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/a_Login/login.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Web/a_Login/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/a_Login/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Web/a_Login/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/a_Login/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/coupon_search.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/coupon_search.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/coupon_search_by_location.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/coupon_search_by_location.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/product_category.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/d_Product_Category/product_category.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/best_seller.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/best_seller.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/popular_merchant.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/popular_merchant.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/a_Login/selenium-screenshot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/b_Coupon_Search/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/d_Product_Category/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/d_Product_Category/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/d_Product_Category/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/d_Product_Category/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/e_Best_Seller/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/filter.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/g_Filter/filter.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/h_Transaction/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/h_Transaction/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/h_Transaction/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/h_Transaction/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/h_Transaction/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/h_Transaction/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/h_Transaction/transaction.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/h_Transaction/transaction.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/g_Filter/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/g_Filter/output.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/g_Filter/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/g_Filter/report.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/i_All_Test/log.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/i_All_Test/output.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/i_All_Test/report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-13.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-14.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-16.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-17.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-18.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-19.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/selenium-screenshot-9.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,24 +61,42 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Web/General/setting_browser.robot">
+        <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="26" column="46" selection-start-line="26" selection-start-column="46" selection-end-line="26" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#73#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-870">
+              <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot">
+        <entry file="file://$PROJECT_DIR$/Resources/Web/f_Popular_Merchant/f_popular_merchant.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="112" selection-start-line="112" selection-end-line="112" />
+            <state relative-caret-position="206">
+              <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
               <folding>
-                <element signature="e#0#796#0" expanded="true" />
+                <element signature="e#0#64#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Resources/Web/i_All_Test/i_all_test.robot">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <folding>
+                <element signature="e#0#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,32 +105,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Resources/Web/g_Filter/g_filter.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="46" column="92" selection-start-line="46" selection-start-column="92" selection-end-line="46" selection-end-column="92" />
+            <state relative-caret-position="1530">
+              <caret line="104" selection-start-line="104" selection-end-line="104" />
               <folding>
                 <element signature="e#0#64#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Resources/Web/f_Popular_Merchant/f_popular_merchant.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/popular_merchant.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -112,12 +132,14 @@
       <find>e_voucher</find>
       <find>logo</find>
       <find>Go to Kupon Menu</find>
-      <find>back_to_landing_page</find>
       <find>detail_result</find>
       <find>detail_result_text</find>
       <find>urutkan</find>
       <find>Staging_URL</find>
       <find>e_voucher1</find>
+      <find>back_to_landing_page</find>
+      <find>//*[@id=&quot;js-coupon-deals-user-app&quot;]/div[2]/section[2]/div[1]/a</find>
+      <find>js-coupon-deals-user-app</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,7 +182,6 @@
         <option value="$PROJECT_DIR$/email.html" />
         <option value="$PROJECT_DIR$/runner.sh" />
         <option value="$PROJECT_DIR$/Resources/Web/d_Product_Category/d_product_category.robot" />
-        <option value="$PROJECT_DIR$/Resources/Web/g_Filter/g_filter.robot" />
         <option value="$PROJECT_DIR$/Resources/Web/General/setting_browser.robot" />
         <option value="$PROJECT_DIR$/Resources/Web/h_Transaction/h_transaction.robot" />
         <option value="$PROJECT_DIR$/Tests/Web/h_Transaction/transaction.robot" />
@@ -174,16 +195,16 @@
         <option value="$PROJECT_DIR$/Resources/Web/e_Best_Seller/e_best_seller.robot" />
         <option value="$PROJECT_DIR$/Tests/Web/e_Best_Seller/best_seller.robot" />
         <option value="$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/popular_merchant.robot" />
-        <option value="$PROJECT_DIR$/Resources/Web/f_Popular_Merchant/f_popular_merchant.robot" />
-        <option value="$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot" />
+        <option value="$PROJECT_DIR$/Resources/Web/g_Filter/g_filter.robot" />
         <option value="$PROJECT_DIR$/Tests/Web/g_Filter/filter.robot" />
+        <option value="$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot" />
+        <option value="$PROJECT_DIR$/Resources/Web/f_Popular_Merchant/f_popular_merchant.robot" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="width" value="1440" />
-    <option name="height" value="821" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -214,20 +235,6 @@
               <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
               <item name="Resources" type="462c0819:PsiDirectoryNode" />
               <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="f_Popular_Merchant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation-rf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="g_Filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation-rf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
-              <item name="Resources" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
               <item name="i_All_Test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -247,13 +254,6 @@
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
               <item name="Web" type="462c0819:PsiDirectoryNode" />
               <item name="f_Popular_Merchant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation-rf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="g_Filter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="automation-rf" type="b2602c69:ProjectViewProjectNode" />
@@ -384,11 +384,16 @@
       <workItem from="1560245813729" duration="717000" />
       <workItem from="1560247716186" duration="348000" />
       <workItem from="1560833846622" duration="11000" />
+      <workItem from="1561204958497" duration="1245000" />
+      <workItem from="1561210769767" duration="1511000" />
+      <workItem from="1561212643020" duration="1275000" />
+      <workItem from="1561214515136" duration="1459000" />
+      <workItem from="1561216414781" duration="485000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="60516000" />
+    <option name="totallyTimeSpent" value="66491000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -400,9 +405,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="821" extended-state="0" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27181688" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29041487" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -413,7 +419,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32921812" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.444206" visible="true" weight="0.36899862" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.444206" visible="true" weight="0.32409638" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.555794" side_tool="true" weight="0.3251029" />
       <window_info anchor="bottom" id="Python Console" order="10" sideWeight="0.49713877" weight="0.32784638" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
@@ -507,32 +513,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/i_All_Test/i_all_test.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Web/h_Transaction/transaction.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="e#0#404#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/a_Login/a_login.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="55" column="26" lean-forward="true" selection-start-line="55" selection-start-column="26" selection-end-line="55" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -570,37 +556,10 @@
     <entry file="file://$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/report.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/d_Product_Category/d_product_category.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="968">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Web/c_Coupon_Search_by_Location/coupon_search_by_location.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="45" lean-forward="true" selection-start-line="4" selection-start-column="45" selection-end-line="4" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/e_Best_Seller/e_best_seller.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="51" column="43" lean-forward="true" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -621,30 +580,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="67" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/c_Coupon_Search_by_Location/c_coupon_search_by_location.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Web/g_Filter/filter.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        <state relative-caret-position="480">
+          <caret line="32" column="51" selection-start-line="32" selection-start-column="51" selection-end-line="32" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#317#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -658,39 +600,106 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/g_Filter/g_filter.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="46" column="92" selection-start-line="46" selection-start-column="92" selection-end-line="46" selection-end-column="92" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/f_Popular_Merchant/f_popular_merchant.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Web/f_Popular_Merchant/popular_merchant.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="32" column="3" selection-start-line="32" selection-start-column="3" selection-end-line="32" selection-end-column="3" />
+        <state relative-caret-position="137">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Web/a_Login/a_login.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="61">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Web/c_Coupon_Search_by_Location/c_coupon_search_by_location.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="36" column="20" selection-start-line="36" selection-start-column="20" selection-end-line="36" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Web/d_Product_Category/d_product_category.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="43">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Web/e_Best_Seller/e_best_seller.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Web/i_All_Test/i_all_test.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Web/g_Filter/g_filter.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1530">
+          <caret line="104" selection-start-line="104" selection-end-line="104" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="112" selection-start-line="112" selection-end-line="112" />
+        <state relative-caret-position="-870">
+          <caret line="9" column="66" selection-start-line="9" selection-start-column="66" selection-end-line="9" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Web/f_Popular_Merchant/f_popular_merchant.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="50" column="49" lean-forward="true" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
           <folding>
-            <element signature="e#0#796#0" expanded="true" />
+            <element signature="e#0#64#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -18,7 +18,7 @@ ${e_voucher}                 //*[@id="reskinned_page"]/header/div[2]/div/div/div
 ${kupon}                     //*[@id="reskinned_page"]/div[4]/div[2]/div[2]/nav/a[12]/div[2]
 ${merchant}                  //*[@id="js-coupon-deals-user-app"]/div[2]/section[3]/nav/div[1]/a
 ${lihat_semua}               //*[@id="js-coupon-deals-user-app"]/div[2]/section[3]/div/a
-${semua_merchant}            //*[@id="js-coupon-deals-user-app"]/div/div[1]/div/div/div[1]/h1/a
+${semua_merchant}            xpath=//*[@id="js-coupon-deals-user-app"]/div[2]/section[3]/div/a
 ${semua_merchant_text}       Semua Merchant
 ${cari_merchant_field}       //*[@id="js-coupon-deals-user-app"]/div/div[1]/div/div/div[2]/div/div/input
 ${cari_merchant_key}         yoshinoya
@@ -47,7 +47,7 @@ Popular Merchant
     Click Element                    ${merchant}
 
 Lihat Semua Merchant
-    sleep                          2s
+    sleep                          3s
     Click Element                  ${lihat_semua}
     #wait until element contains    ${semua_merchant}       ${semua_merchant_text}
 

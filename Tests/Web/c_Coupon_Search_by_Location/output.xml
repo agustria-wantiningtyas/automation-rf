@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190428 20:07:29.254" generator="Robot 3.1.1 (Python 2.7.16 on darwin)">
+<robot rpa="false" generated="20190622 20:46:06.099" generator="Robot 3.1.1 (Python 2.7.16 on darwin)">
 <suite source="/Users/bukalapak/Documents/Kuliah/Skripsi/Agustria/Github/automation-rf/Tests/Web/c_Coupon_Search_by_Location/coupon_search_by_location.robot" id="s1" name="Coupon Search By Location">
-<test id="s1-t1" name="Open Bukalapak page">
+<test id="s1-t1" name="1. Open Bukalapak page">
 <kw name="Given Open Bukalapak page" library="setting_browser">
 <kw name="Set Selenium Speed" library="Selenium2Library">
 <doc>Sets the delay that is waited after each Selenium command.</doc>
 <arguments>
 <arg>1s</arg>
 </arguments>
-<status status="PASS" endtime="20190428 20:07:29.490" starttime="20190428 20:07:29.490"></status>
+<status status="PASS" endtime="20190622 20:46:06.356" starttime="20190622 20:46:06.355"></status>
 </kw>
 <kw name="Open Browser" library="Selenium2Library">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -16,8 +16,8 @@
 <arg>${Prod_URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20190428 20:07:29.490" level="INFO">Opening browser 'chrome' to base url 'https://www.bukalapak.com'.</msg>
-<status status="PASS" endtime="20190428 20:07:42.211" starttime="20190428 20:07:29.490"></status>
+<msg timestamp="20190622 20:46:06.356" level="INFO">Opening browser 'chrome' to base url 'https://www.bukalapak.com'.</msg>
+<status status="PASS" endtime="20190622 20:46:18.525" starttime="20190622 20:46:06.356"></status>
 </kw>
 <kw name="Set Window Size" library="Selenium2Library">
 <doc>Sets current windows size to given ``width`` and ``height``.</doc>
@@ -25,141 +25,133 @@
 <arg>1450</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" endtime="20190428 20:07:43.325" starttime="20190428 20:07:42.213"></status>
+<status status="PASS" endtime="20190622 20:46:19.636" starttime="20190622 20:46:18.526"></status>
 </kw>
-<status status="PASS" endtime="20190428 20:07:43.326" starttime="20190428 20:07:29.489"></status>
+<status status="PASS" endtime="20190622 20:46:19.636" starttime="20190622 20:46:06.355"></status>
 </kw>
-<status status="PASS" endtime="20190428 20:07:43.327" critical="yes" starttime="20190428 20:07:29.489"></status>
+<status status="PASS" endtime="20190622 20:46:19.637" critical="yes" starttime="20190622 20:46:06.354"></status>
 </test>
-<test id="s1-t2" name="Go to Kupon Menu">
+<test id="s1-t2" name="2. Go to Kupon Menu">
 <kw name="When Go to Kupon Menu" library="c_coupon_search_by_location">
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>3s</arg>
 </arguments>
-<msg timestamp="20190428 20:07:48.334" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20190428 20:07:48.334" starttime="20190428 20:07:43.331"></status>
+<msg timestamp="20190622 20:46:22.641" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190622 20:46:22.641" starttime="20190622 20:46:19.639"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${e_voucher1}</arg>
 </arguments>
-<msg timestamp="20190428 20:07:48.336" level="INFO">Clicking element '//*[@id="normal_page"]/header/div[2]/div/div/div[1]/div/ul/li[1]/a'.</msg>
-<status status="PASS" endtime="20190428 20:07:54.839" starttime="20190428 20:07:48.335"></status>
+<msg timestamp="20190622 20:46:22.642" level="INFO">Clicking element '//*[@id="normal_page"]/header/div[2]/div/div/div[1]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20190622 20:46:26.916" starttime="20190622 20:46:22.641"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>3s</arg>
 </arguments>
-<msg timestamp="20190428 20:07:59.840" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20190428 20:07:59.840" starttime="20190428 20:07:54.839"></status>
+<msg timestamp="20190622 20:46:29.919" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190622 20:46:29.919" starttime="20190622 20:46:26.916"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${kupon1}</arg>
 </arguments>
-<msg timestamp="20190428 20:07:59.841" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div[2]/div[2]/nav/a[12]/div[2]'.</msg>
-<status status="PASS" endtime="20190428 20:08:08.800" starttime="20190428 20:07:59.841"></status>
+<msg timestamp="20190622 20:46:29.920" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div[2]/div[2]/nav/a[12]/div[2]'.</msg>
+<status status="PASS" endtime="20190622 20:46:38.314" starttime="20190622 20:46:29.920"></status>
 </kw>
-<status status="PASS" endtime="20190428 20:08:08.800" starttime="20190428 20:07:43.330"></status>
+<status status="PASS" endtime="20190622 20:46:38.314" starttime="20190622 20:46:19.638"></status>
 </kw>
-<status status="PASS" endtime="20190428 20:08:08.801" critical="yes" starttime="20190428 20:07:43.329"></status>
+<status status="PASS" endtime="20190622 20:46:38.314" critical="yes" starttime="20190622 20:46:19.638"></status>
 </test>
-<test id="s1-t3" name="Coupon Search by Location">
+<test id="s1-t3" name="3. Coupon Search by Location">
 <kw name="And Coupon Search by Location" library="c_coupon_search_by_location">
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>3s</arg>
 </arguments>
-<msg timestamp="20190428 20:08:13.804" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20190428 20:08:13.804" starttime="20190428 20:08:08.803"></status>
+<msg timestamp="20190622 20:46:41.317" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190622 20:46:41.318" starttime="20190622 20:46:38.316"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${pilih_lokasi_button}</arg>
 </arguments>
-<msg timestamp="20190428 20:08:13.805" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[2]/select'.</msg>
-<status status="PASS" endtime="20190428 20:08:15.896" starttime="20190428 20:08:13.804"></status>
+<msg timestamp="20190622 20:46:41.319" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[2]/select'.</msg>
+<status status="PASS" endtime="20190622 20:46:43.445" starttime="20190622 20:46:41.318"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${lokasi}</arg>
 </arguments>
-<msg timestamp="20190428 20:08:15.898" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[2]/select/option[2]'.</msg>
-<status status="PASS" endtime="20190428 20:08:18.223" starttime="20190428 20:08:15.897"></status>
+<msg timestamp="20190622 20:46:43.446" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[2]/select/option[2]'.</msg>
+<status status="PASS" endtime="20190622 20:46:45.745" starttime="20190622 20:46:43.446"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${cari_button}</arg>
 </arguments>
-<msg timestamp="20190428 20:08:18.224" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[3]/input'.</msg>
-<status status="PASS" endtime="20190428 20:08:20.584" starttime="20190428 20:08:18.223"></status>
+<msg timestamp="20190622 20:46:45.745" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div[2]/div/div/form/div[3]/input'.</msg>
+<status status="PASS" endtime="20190622 20:46:47.864" starttime="20190622 20:46:45.745"></status>
 </kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>5s</arg>
-</arguments>
-<msg timestamp="20190428 20:08:25.589" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20190428 20:08:25.589" starttime="20190428 20:08:20.585"></status>
+<status status="PASS" endtime="20190622 20:46:47.864" starttime="20190622 20:46:38.316"></status>
 </kw>
-<status status="PASS" endtime="20190428 20:08:25.589" starttime="20190428 20:08:08.802"></status>
-</kw>
-<status status="PASS" endtime="20190428 20:08:25.590" critical="yes" starttime="20190428 20:08:08.801"></status>
+<status status="PASS" endtime="20190622 20:46:47.864" critical="yes" starttime="20190622 20:46:38.315"></status>
 </test>
-<test id="s1-t4" name="Coupon Detail">
+<test id="s1-t4" name="4. Coupon Detail">
 <kw name="And Coupon Detail" library="c_coupon_search_by_location">
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>2s</arg>
 </arguments>
-<msg timestamp="20190428 20:08:30.593" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20190428 20:08:30.594" starttime="20190428 20:08:25.592"></status>
+<msg timestamp="20190622 20:46:49.870" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190622 20:46:49.870" starttime="20190622 20:46:47.867"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${detail}</arg>
 </arguments>
-<msg timestamp="20190428 20:08:30.595" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/section/div[2]/div/div[2]/section/div/div[1]/a/div[2]/div[1]/h3'.</msg>
-<status status="PASS" endtime="20190428 20:08:32.691" starttime="20190428 20:08:30.594"></status>
+<msg timestamp="20190622 20:46:49.871" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/section/div[2]/div/div[2]/section/div/div[1]/a/div[2]/div[1]/h3'.</msg>
+<status status="PASS" endtime="20190622 20:46:51.994" starttime="20190622 20:46:49.871"></status>
 </kw>
-<status status="PASS" endtime="20190428 20:08:32.691" starttime="20190428 20:08:25.592"></status>
+<status status="PASS" endtime="20190622 20:46:51.995" starttime="20190622 20:46:47.866"></status>
 </kw>
-<status status="PASS" endtime="20190428 20:08:32.691" critical="yes" starttime="20190428 20:08:25.591"></status>
+<status status="PASS" endtime="20190622 20:46:51.995" critical="yes" starttime="20190622 20:46:47.865"></status>
 </test>
-<test id="s1-t5" name="Back To Landing Page">
+<test id="s1-t5" name="5. Back To Landing Page">
 <kw name="And Back To Landing Page" library="c_coupon_search_by_location">
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
-<arg>5s</arg>
+<arg>2s</arg>
 </arguments>
-<msg timestamp="20190428 20:08:37.695" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20190428 20:08:37.695" starttime="20190428 20:08:32.694"></status>
+<msg timestamp="20190622 20:46:54.000" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" endtime="20190622 20:46:54.001" starttime="20190622 20:46:51.998"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${back_to_landing_page}</arg>
 </arguments>
-<msg timestamp="20190428 20:08:37.696" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
-<status status="PASS" endtime="20190428 20:08:39.813" starttime="20190428 20:08:37.696"></status>
+<msg timestamp="20190622 20:46:54.001" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20190622 20:46:56.150" starttime="20190622 20:46:54.001"></status>
 </kw>
-<status status="PASS" endtime="20190428 20:08:39.814" starttime="20190428 20:08:32.693"></status>
+<status status="PASS" endtime="20190622 20:46:56.151" starttime="20190622 20:46:51.997"></status>
 </kw>
-<status status="PASS" endtime="20190428 20:08:39.814" critical="yes" starttime="20190428 20:08:32.692"></status>
+<status status="PASS" endtime="20190622 20:46:56.151" critical="yes" starttime="20190622 20:46:51.996"></status>
 </test>
-<status status="PASS" endtime="20190428 20:08:39.816" starttime="20190428 20:07:29.256"></status>
+<status status="PASS" endtime="20190622 20:46:56.153" starttime="20190622 20:46:06.102"></status>
 </suite>
 <statistics>
 <total>

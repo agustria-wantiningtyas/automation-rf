@@ -32,51 +32,51 @@ Resource        ../../../Resources/Web/h_Transaction/h_transaction.robot
 2a. Coupon Search - Go to Kupon Menu
         And b_coupon_search.Login_Go to Kupon Menu
 
-#2b. Coupon Search - Search "Shirokuma"
-#        And b_coupon_search.Login_Coupon Search
+2b. Coupon Search - Search "Shirokuma"
+        And b_coupon_search.Login_Coupon Search
 
-#2c. Coupon Search - Coupon Detail
-#        And b_coupon_search.Login_Coupon Detail
+2c. Coupon Search - Coupon Detail
+        And b_coupon_search.Login_Coupon Detail
 
-#2d. Coupon Search - Back To Landing Page
-#        And b_coupon_search.Login_Back To Landing Page
+2d. Coupon Search - Back To Landing Page
+        And b_coupon_search.Login_Back To Landing Page
 
 #Coupon Search by Location
-#3a. Coupon Search by Location - Coupon Search by Location
-#        And c_coupon_search_by_location.Coupon Search by Location
+3a. Coupon Search by Location - Coupon Search by Location
+        And c_coupon_search_by_location.Coupon Search by Location
 
-#3b. Coupon Search by Location - Coupon Detail
-#        And c_coupon_search_by_location.Coupon Detail
+3b. Coupon Search by Location - Coupon Detail
+        And c_coupon_search_by_location.Coupon Detail
 
-#3c. Coupon Search by Location - Back To Landing Page
-#        And c_coupon_search_by_location.Back To Landing Page
+3c. Coupon Search by Location - Back To Landing Page
+        And c_coupon_search_by_location.Back To Landing Page
 
 #Product Category
-#4a. Product Category - Search Coupon by Category
-#        And d_product_category.Coupon Category
+4a. Product Category - Search Coupon by Category
+        And d_product_category.Coupon Category
 
-#4b. Product Category - Filter Category
-#        And d_product_category.Filter Category
+4b. Product Category - Filter Category
+        And d_product_category.Filter Category
 
-#4c. Product Category - Coupon Detail
-#        And d_product_category.Coupon Detail
+4c. Product Category - Coupon Detail
+        And d_product_category.Coupon Detail
 
-#4d. Product Category - Back To Landing Page
-#        And d_product_category.Back To Landing Page
+4d. Product Category - Back To Landing Page
+        And d_product_category.Back To Landing Page
 
 #Best Seller
-#5a. Best Seller - Coupon Best Seller
-#        And e_best_seller.Coupon Best Seller
+5a. Best Seller - Coupon Best Seller
+        And e_best_seller.Coupon Best Seller
 
-#5b. Best Seller - Landing Page (Best Seller)
-#        And e_best_seller.Back To Landing Page
+5b. Best Seller - Landing Page (Best Seller)
+        And e_best_seller.Back To Landing Page
 
 #Popular Merchant
-#6a. Popular Merchant - Choose Popular Merchant
-#        And f_popular_merchant.Popular Merchant
+6a. Popular Merchant - Choose Popular Merchant
+        And f_popular_merchant.Popular Merchant
 
-#6b. Popular Merchant - Back to Landing Page
-#        And f_popular_merchant.Back To Landing Page
+6b. Popular Merchant - Back to Landing Page
+        And f_popular_merchant.Back To Landing Page
 
 #6c. Popular Merchant - Lihat Semua Merchant
 #        And f_popular_merchant.Lihat Semua Merchant
@@ -103,10 +103,8 @@ Resource        ../../../Resources/Web/h_Transaction/h_transaction.robot
 7d. Filter - Merchant Filter
         And g_filter.Merchant Filter
 
-7e. Filter - Urutkan
-        And g_filter.Urutkan
-
-7f. Filter - Back To Landing Page
-        And g_filter.Back To Landing Page
+7e. Filter - Back To Landing Page
+        And f_popular_merchant.Back To Landing Page
+        #And g_filter.Back To Landing Page
 
 #Transaction

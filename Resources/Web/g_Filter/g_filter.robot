@@ -44,7 +44,7 @@ ${urutkan}                   xpath=//*[@id="coupon-deals__sort"]
 ${termurah}                  //*[@id="coupon-deals__sort"]/option[2]
 ${termahal}                  //*[@id="coupon-deals__sort"]/option[3]
 
-${back_to_landing_page}      //*[@id="js-coupon-deals-user-app"]/div/nav/div/ul/li[1]/a/span
+${back_to_landing_page}      //*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a
 #Akun Test
 ${uname}                     kotaromonami
 ${pass}                      enteraja
@@ -119,9 +119,9 @@ Urutkan
     sleep                           2s
     Click Element                   ${termahal}
 
-Back To Landing Page
-    sleep                           3s
-    Click Element                   ${back_to_landing_page}
+#Back To Landing Page
+#    sleep                           3s
+#    Click Element                   ${back_to_landing_page}
 
 
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190611 17:08:39.825" generator="Robot 3.1.1 (Python 2.7.16 on darwin)">
+<robot rpa="false" generated="20190622 22:21:52.406" generator="Robot 3.1.1 (Python 2.7.16 on darwin)">
 <suite source="/Users/bukalapak/Documents/Kuliah/Skripsi/Agustria/Github/automation-rf/Tests/Web/i_All_Test/all_test.robot" id="s1" name="All Test">
 <test id="s1-t1" name="1a. Open Bukalapak page">
 <kw name="Given Open Bukalapak page" library="setting_browser">
@@ -8,7 +8,7 @@
 <arguments>
 <arg>1s</arg>
 </arguments>
-<status status="PASS" endtime="20190611 17:08:40.082" starttime="20190611 17:08:40.081"></status>
+<status status="PASS" endtime="20190622 22:21:52.668" starttime="20190622 22:21:52.667"></status>
 </kw>
 <kw name="Open Browser" library="Selenium2Library">
 <doc>Opens a new browser instance to the given ``url``.</doc>
@@ -16,8 +16,8 @@
 <arg>${Prod_URL}</arg>
 <arg>${Browser}</arg>
 </arguments>
-<msg timestamp="20190611 17:08:40.082" level="INFO">Opening browser 'chrome' to base url 'https://www.bukalapak.com'.</msg>
-<status status="PASS" endtime="20190611 17:09:20.086" starttime="20190611 17:08:40.082"></status>
+<msg timestamp="20190622 22:21:52.668" level="INFO">Opening browser 'chrome' to base url 'https://www.bukalapak.com'.</msg>
+<status status="PASS" endtime="20190622 22:22:08.147" starttime="20190622 22:21:52.668"></status>
 </kw>
 <kw name="Set Window Size" library="Selenium2Library">
 <doc>Sets current windows size to given ``width`` and ``height``.</doc>
@@ -25,11 +25,11 @@
 <arg>1450</arg>
 <arg>800</arg>
 </arguments>
-<status status="PASS" endtime="20190611 17:09:21.201" starttime="20190611 17:09:20.089"></status>
+<status status="PASS" endtime="20190622 22:22:09.261" starttime="20190622 22:22:08.148"></status>
 </kw>
-<status status="PASS" endtime="20190611 17:09:21.203" starttime="20190611 17:08:40.077"></status>
+<status status="PASS" endtime="20190622 22:22:09.262" starttime="20190622 22:21:52.667"></status>
 </kw>
-<status status="PASS" endtime="20190611 17:09:21.208" critical="yes" starttime="20190611 17:08:40.075"></status>
+<status status="PASS" endtime="20190622 22:22:09.262" critical="yes" starttime="20190622 22:21:52.666"></status>
 </test>
 <test id="s1-t2" name="1b. Login - Fill in sign in form With Valid data">
 <kw name="when a_login.Fill in sign in form" library="a_login">
@@ -38,24 +38,24 @@
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20190611 17:09:26.225" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20190611 17:09:26.225" starttime="20190611 17:09:21.222"></status>
+<msg timestamp="20190622 22:22:14.267" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190622 22:22:14.268" starttime="20190622 22:22:09.265"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${signin_menu}</arg>
 </arguments>
-<msg timestamp="20190611 17:09:26.226" level="INFO">Clicking element '//*[@id="login_link"]'.</msg>
-<status status="PASS" endtime="20190611 17:09:28.308" starttime="20190611 17:09:26.226"></status>
+<msg timestamp="20190622 22:22:14.268" level="INFO">Clicking element '//*[@id="login_link"]'.</msg>
+<status status="PASS" endtime="20190622 22:22:16.386" starttime="20190622 22:22:14.268"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${email}</arg>
 </arguments>
-<msg timestamp="20190611 17:09:28.309" level="INFO">Clicking element '//*[@id="user_session_username"]'.</msg>
-<status status="PASS" endtime="20190611 17:09:30.366" starttime="20190611 17:09:28.309"></status>
+<msg timestamp="20190622 22:22:16.387" level="INFO">Clicking element '//*[@id="user_session_username"]'.</msg>
+<status status="PASS" endtime="20190622 22:22:18.448" starttime="20190622 22:22:16.387"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -63,16 +63,16 @@
 <arg>${email}</arg>
 <arg>${uname}</arg>
 </arguments>
-<msg timestamp="20190611 17:09:30.367" level="INFO">Typing text 'agustriatyas.testdeal@gmail.com' into text field '//*[@id="user_session_username"]'.</msg>
-<status status="PASS" endtime="20190611 17:09:33.650" starttime="20190611 17:09:30.366"></status>
+<msg timestamp="20190622 22:22:18.449" level="INFO">Typing text 'agustriatyas.testdeal@gmail.com' into text field '//*[@id="user_session_username"]'.</msg>
+<status status="PASS" endtime="20190622 22:22:21.728" starttime="20190622 22:22:18.449"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${password}</arg>
 </arguments>
-<msg timestamp="20190611 17:09:33.651" level="INFO">Clicking element '//*[@id="user_session_password"]'.</msg>
-<status status="PASS" endtime="20190611 17:09:35.706" starttime="20190611 17:09:33.650"></status>
+<msg timestamp="20190622 22:22:21.728" level="INFO">Clicking element '//*[@id="user_session_password"]'.</msg>
+<status status="PASS" endtime="20190622 22:22:23.795" starttime="20190622 22:22:21.728"></status>
 </kw>
 <kw name="Input Text" library="Selenium2Library">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -80,12 +80,12 @@
 <arg>${password}</arg>
 <arg>${pass}</arg>
 </arguments>
-<msg timestamp="20190611 17:09:35.707" level="INFO">Typing text 'qwerty123' into text field '//*[@id="user_session_password"]'.</msg>
-<status status="PASS" endtime="20190611 17:09:38.810" starttime="20190611 17:09:35.706"></status>
+<msg timestamp="20190622 22:22:23.796" level="INFO">Typing text 'qwerty123' into text field '//*[@id="user_session_password"]'.</msg>
+<status status="PASS" endtime="20190622 22:22:26.917" starttime="20190622 22:22:23.796"></status>
 </kw>
-<status status="PASS" endtime="20190611 17:09:38.810" starttime="20190611 17:09:21.219"></status>
+<status status="PASS" endtime="20190622 22:22:26.918" starttime="20190622 22:22:09.265"></status>
 </kw>
-<status status="PASS" endtime="20190611 17:09:38.810" critical="yes" starttime="20190611 17:09:21.216"></status>
+<status status="PASS" endtime="20190622 22:22:26.918" critical="yes" starttime="20190622 22:22:09.263"></status>
 </test>
 <test id="s1-t3" name="1c. Login - Click button Sign In">
 <kw name="And a_login.click button sign in" library="a_login">
@@ -94,12 +94,12 @@
 <arguments>
 <arg>${button_masuk}</arg>
 </arguments>
-<msg timestamp="20190611 17:09:38.814" level="INFO">Clicking button 'xpath=//*[@id="new_user_session"]/div[1]/div[5]/button'.</msg>
-<status status="PASS" endtime="20190611 17:09:43.926" starttime="20190611 17:09:38.813"></status>
+<msg timestamp="20190622 22:22:26.920" level="INFO">Clicking button 'xpath=//*[@id="new_user_session"]/div[1]/div[5]/button'.</msg>
+<status status="PASS" endtime="20190622 22:22:32.040" starttime="20190622 22:22:26.920"></status>
 </kw>
-<status status="PASS" endtime="20190611 17:09:43.926" starttime="20190611 17:09:38.813"></status>
+<status status="PASS" endtime="20190622 22:22:32.040" starttime="20190622 22:22:26.920"></status>
 </kw>
-<status status="PASS" endtime="20190611 17:09:43.926" critical="yes" starttime="20190611 17:09:38.811"></status>
+<status status="PASS" endtime="20190622 22:22:32.040" critical="yes" starttime="20190622 22:22:26.919"></status>
 </test>
 <test id="s1-t4" name="1d. Login - Dashboard page Bukalapak">
 <kw name="Then a_login.home page" library="a_login">
@@ -108,8 +108,8 @@
 <arguments>
 <arg>10s</arg>
 </arguments>
-<msg timestamp="20190611 17:09:53.931" level="INFO">Slept 10 seconds</msg>
-<status status="PASS" endtime="20190611 17:09:53.931" starttime="20190611 17:09:43.929"></status>
+<msg timestamp="20190622 22:22:42.045" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20190622 22:22:42.045" starttime="20190622 22:22:32.044"></status>
 </kw>
 <kw name="Wait Until Element Contains" library="Selenium2Library">
 <doc>Waits until element ``locator`` contains ``text``.</doc>
@@ -117,11 +117,11 @@
 <arg>${logo}</arg>
 <arg>${text_logo}</arg>
 </arguments>
-<status status="PASS" endtime="20190611 17:10:06.718" starttime="20190611 17:09:53.931"></status>
+<status status="PASS" endtime="20190622 22:23:28.713" starttime="20190622 22:22:42.045"></status>
 </kw>
-<status status="PASS" endtime="20190611 17:10:06.718" starttime="20190611 17:09:43.929"></status>
+<status status="PASS" endtime="20190622 22:23:28.713" starttime="20190622 22:22:32.043"></status>
 </kw>
-<status status="PASS" endtime="20190611 17:10:06.719" critical="yes" starttime="20190611 17:09:43.927"></status>
+<status status="PASS" endtime="20190622 22:23:28.714" critical="yes" starttime="20190622 22:22:32.042"></status>
 </test>
 <test id="s1-t5" name="2a. Coupon Search - Go to Kupon Menu">
 <kw name="And b_coupon_search.Login_Go to Kupon Menu" library="b_coupon_search">
@@ -130,454 +130,111 @@
 <arguments>
 <arg>5s</arg>
 </arguments>
-<msg timestamp="20190611 17:10:11.722" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20190611 17:10:11.722" starttime="20190611 17:10:06.721"></status>
+<msg timestamp="20190622 22:23:33.717" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190622 22:23:33.717" starttime="20190622 22:23:28.716"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${e_voucher2}</arg>
 </arguments>
-<msg timestamp="20190611 17:10:11.723" level="INFO">Clicking element '//*[@id="reskinned_page"]/header/div[2]/div/div/div[1]/div/ul/li[1]/a'.</msg>
-<status status="PASS" endtime="20190611 17:10:37.909" starttime="20190611 17:10:11.722"></status>
+<msg timestamp="20190622 22:23:33.718" level="INFO">Clicking element '//*[@id="reskinned_page"]/header/div[2]/div/div/div[1]/div/ul/li[1]/a'.</msg>
+<status status="PASS" endtime="20190622 22:23:39.880" starttime="20190622 22:23:33.717"></status>
 </kw>
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20190611 17:10:40.911" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20190611 17:10:40.911" starttime="20190611 17:10:37.909"></status>
+<msg timestamp="20190622 22:23:42.882" level="INFO">Slept 3 seconds</msg>
+<status status="PASS" endtime="20190622 22:23:42.882" starttime="20190622 22:23:39.880"></status>
 </kw>
 <kw name="Click Element" library="Selenium2Library">
 <doc>Click element identified by ``locator``.</doc>
 <arguments>
 <arg>${kupon2}</arg>
 </arguments>
-<msg timestamp="20190611 17:10:40.912" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div[2]/div[2]/nav/a[12]/div[2]'.</msg>
-<status status="PASS" endtime="20190611 17:10:58.619" starttime="20190611 17:10:40.912"></status>
+<msg timestamp="20190622 22:23:42.883" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div[2]/div[2]/nav/a[12]/div[2]'.</msg>
+<status status="PASS" endtime="20190622 22:23:59.076" starttime="20190622 22:23:42.882"></status>
 </kw>
-<status status="PASS" endtime="20190611 17:10:58.619" starttime="20190611 17:10:06.721"></status>
+<status status="PASS" endtime="20190622 22:23:59.077" starttime="20190622 22:23:28.716"></status>
 </kw>
-<status status="PASS" endtime="20190611 17:10:58.619" critical="yes" starttime="20190611 17:10:06.719"></status>
+<status status="PASS" endtime="20190622 22:23:59.077" critical="yes" starttime="20190622 22:23:28.714"></status>
 </test>
-<test id="s1-t6" name="7a. Filter - Lokasi Penukaran Filter">
-<kw name="And g_filter.Lokasi Penukaran Filter" library="g_filter">
+<test id="s1-t6" name="6c. Popular Merchant - Lihat Semua Merchant">
+<kw name="And f_popular_merchant.Lihat Semua Merchant" library="f_popular_merchant">
 <kw name="Sleep" library="BuiltIn">
 <doc>Pauses the test executed for the given time.</doc>
 <arguments>
 <arg>3s</arg>
 </arguments>
-<msg timestamp="20190611 17:11:01.622" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20190611 17:11:01.623" starttime="20190611 17:10:58.621"></status>
+<status status="FAIL" endtime="20190622 22:24:01.759" starttime="20190622 22:23:59.079"></status>
 </kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${cari_semua}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:01.624" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div[2]/div/div/form/div[3]/input'.</msg>
-<status status="PASS" endtime="20190611 17:11:03.759" starttime="20190611 17:11:01.623"></status>
+<status status="FAIL" endtime="20190622 22:24:01.760" starttime="20190622 22:23:59.079"></status>
 </kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${bandung}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:03.759" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[1]/label[1]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:05.857" starttime="20190611 17:11:03.759"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20190611 17:11:07.859" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" endtime="20190611 17:11:07.859" starttime="20190611 17:11:05.858"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${bandung}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:07.859" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[1]/label[1]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:09.961" starttime="20190611 17:11:07.859"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${bekasi}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:09.962" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[1]/label[2]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:12.169" starttime="20190611 17:11:09.961"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20190611 17:11:14.170" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" endtime="20190611 17:11:14.170" starttime="20190611 17:11:12.169"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${bekasi}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:14.171" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[1]/label[2]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:16.247" starttime="20190611 17:11:14.170"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${bogor}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:16.247" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[1]/label[3]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:18.367" starttime="20190611 17:11:16.247"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20190611 17:11:20.370" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" endtime="20190611 17:11:20.370" starttime="20190611 17:11:18.367"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${bogor}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:20.371" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[1]/label[3]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:22.465" starttime="20190611 17:11:20.370"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${bandung}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:22.466" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[1]/label[1]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:24.554" starttime="20190611 17:11:22.466"></status>
-</kw>
-<status status="PASS" endtime="20190611 17:11:24.554" starttime="20190611 17:10:58.621"></status>
-</kw>
-<status status="PASS" endtime="20190611 17:11:24.554" critical="yes" starttime="20190611 17:10:58.620"></status>
+<status status="FAIL" endtime="20190622 22:24:01.760" critical="yes" starttime="20190622 22:23:59.078">Execution terminated by signal</status>
 </test>
-<test id="s1-t7" name="7b. Filter - Rentang Harga Filter">
-<kw name="And g_filter.Rentang Harga Filter" library="g_filter">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>3s</arg>
-</arguments>
-<msg timestamp="20190611 17:11:27.561" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20190611 17:11:27.561" starttime="20190611 17:11:24.558"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${min}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:27.562" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[2]/form/div[1]/input'.</msg>
-<status status="PASS" endtime="20190611 17:11:29.641" starttime="20190611 17:11:27.561"></status>
-</kw>
-<kw name="Input Text" library="Selenium2Library">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>${min}</arg>
-<arg>${min_key}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:29.642" level="INFO">Typing text '1000' into text field '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[2]/form/div[1]/input'.</msg>
-<status status="PASS" endtime="20190611 17:11:32.728" starttime="20190611 17:11:29.642"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${max}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:32.729" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[2]/form/div[2]/input'.</msg>
-<status status="PASS" endtime="20190611 17:11:34.803" starttime="20190611 17:11:32.729"></status>
-</kw>
-<kw name="Input Text" library="Selenium2Library">
-<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
-<arguments>
-<arg>${max}</arg>
-<arg>${max_key}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:34.804" level="INFO">Typing text '50000' into text field '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[2]/form/div[2]/input'.</msg>
-<status status="PASS" endtime="20190611 17:11:37.895" starttime="20190611 17:11:34.803"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${terapkan}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:37.896" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[2]/form/div[3]/button'.</msg>
-<status status="PASS" endtime="20190611 17:11:39.996" starttime="20190611 17:11:37.896"></status>
-</kw>
-<status status="PASS" endtime="20190611 17:11:39.996" starttime="20190611 17:11:24.557"></status>
-</kw>
-<status status="PASS" endtime="20190611 17:11:39.996" critical="yes" starttime="20190611 17:11:24.556"></status>
+<test id="s1-t7" name="6d. Popular Merchant - Cari Merchant">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190622 22:24:01.762" critical="yes" starttime="20190622 22:24:01.761">Test execution stopped due to a fatal error.</status>
 </test>
-<test id="s1-t8" name="7c. Filter - Category Filter">
-<kw name="And g_filter.Category Filter" library="g_filter">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>3s</arg>
-</arguments>
-<msg timestamp="20190611 17:11:43.002" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20190611 17:11:43.003" starttime="20190611 17:11:40.000"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${makanan}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:43.004" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[1]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:45.113" starttime="20190611 17:11:43.003"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20190611 17:11:47.114" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" endtime="20190611 17:11:47.115" starttime="20190611 17:11:45.114"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${makanan}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:47.115" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[1]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:49.207" starttime="20190611 17:11:47.115"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${gaya_hidup}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:49.207" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[2]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:51.392" starttime="20190611 17:11:49.207"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20190611 17:11:53.394" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" endtime="20190611 17:11:53.394" starttime="20190611 17:11:51.393"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${gaya_hidup}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:53.395" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[2]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:55.474" starttime="20190611 17:11:53.394"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${kecantikan}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:55.475" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[3]/span'.</msg>
-<status status="PASS" endtime="20190611 17:11:57.584" starttime="20190611 17:11:55.474"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20190611 17:11:59.586" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" endtime="20190611 17:11:59.586" starttime="20190611 17:11:57.585"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${kecantikan}</arg>
-</arguments>
-<msg timestamp="20190611 17:11:59.587" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[3]/span'.</msg>
-<status status="PASS" endtime="20190611 17:12:01.678" starttime="20190611 17:11:59.587"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${liburan}</arg>
-</arguments>
-<msg timestamp="20190611 17:12:01.679" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[4]/span'.</msg>
-<status status="PASS" endtime="20190611 17:12:03.818" starttime="20190611 17:12:01.679"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20190611 17:12:05.819" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" endtime="20190611 17:12:05.819" starttime="20190611 17:12:03.818"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${liburan}</arg>
-</arguments>
-<msg timestamp="20190611 17:12:05.820" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[4]/span'.</msg>
-<status status="PASS" endtime="20190611 17:12:07.898" starttime="20190611 17:12:05.820"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${makanan}</arg>
-</arguments>
-<msg timestamp="20190611 17:12:07.899" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[3]/label[1]/span'.</msg>
-<status status="PASS" endtime="20190611 17:12:10.023" starttime="20190611 17:12:07.898"></status>
-</kw>
-<status status="PASS" endtime="20190611 17:12:10.024" starttime="20190611 17:11:39.999"></status>
-</kw>
-<status status="PASS" endtime="20190611 17:12:10.024" critical="yes" starttime="20190611 17:11:39.997"></status>
+<test id="s1-t8" name="6e. Popular Merchant - Merchant Detail">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190622 22:24:01.764" critical="yes" starttime="20190622 22:24:01.763">Test execution stopped due to a fatal error.</status>
 </test>
-<test id="s1-t9" name="7d. Filter - Merchant Filter">
-<kw name="And g_filter.Merchant Filter" library="g_filter">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>3s</arg>
-</arguments>
-<msg timestamp="20190611 17:12:13.028" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20190611 17:12:13.028" starttime="20190611 17:12:10.026"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${alfamart}</arg>
-</arguments>
-<msg timestamp="20190611 17:12:13.029" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[4]/div[3]/label[1]/span'.</msg>
-<status status="PASS" endtime="20190611 17:12:15.143" starttime="20190611 17:12:13.029"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20190611 17:12:17.145" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" endtime="20190611 17:12:17.146" starttime="20190611 17:12:15.143"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${alfamart2}</arg>
-</arguments>
-<msg timestamp="20190611 17:12:17.147" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[4]/div[2]/label/span'.</msg>
-<status status="PASS" endtime="20190611 17:12:19.236" starttime="20190611 17:12:17.146"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${ancol}</arg>
-</arguments>
-<msg timestamp="20190611 17:12:19.237" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[4]/div[3]/label[2]/span'.</msg>
-<status status="PASS" endtime="20190611 17:12:21.344" starttime="20190611 17:12:19.236"></status>
-</kw>
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>2s</arg>
-</arguments>
-<msg timestamp="20190611 17:12:23.345" level="INFO">Slept 2 seconds</msg>
-<status status="PASS" endtime="20190611 17:12:23.345" starttime="20190611 17:12:21.344"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${ancol2}</arg>
-</arguments>
-<msg timestamp="20190611 17:12:23.346" level="INFO">Clicking element '//*[@id="js-coupon-deals-user-app"]/div/section/div[2]/div/div[1]/div/section[4]/div[2]/label/span'.</msg>
-<status status="PASS" endtime="20190611 17:12:25.448" starttime="20190611 17:12:23.346"></status>
-</kw>
-<status status="PASS" endtime="20190611 17:12:25.448" starttime="20190611 17:12:10.025"></status>
-</kw>
-<status status="PASS" endtime="20190611 17:12:25.448" critical="yes" starttime="20190611 17:12:10.025"></status>
+<test id="s1-t9" name="6f. Popular Merchant - Back To Landing Page">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190622 22:24:01.766" critical="yes" starttime="20190622 22:24:01.765">Test execution stopped due to a fatal error.</status>
 </test>
-<test id="s1-t10" name="7e. Filter - Urutkan">
-<kw name="And g_filter.Urutkan" library="g_filter">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>5s</arg>
-</arguments>
-<msg timestamp="20190611 17:12:30.452" level="INFO">Slept 5 seconds</msg>
-<status status="PASS" endtime="20190611 17:12:30.453" starttime="20190611 17:12:25.451"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${urutkan}</arg>
-</arguments>
-<msg timestamp="20190611 17:12:30.453" level="INFO">Clicking element 'xpath=//*[@id="coupon-deals__sort"]'.</msg>
-<kw name="Capture Page Screenshot" library="Selenium2Library">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20190611 17:12:33.403" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-18.png"&gt;&lt;img src="selenium-screenshot-18.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20190611 17:12:33.403" starttime="20190611 17:12:31.505"></status>
-</kw>
-<msg timestamp="20190611 17:12:33.412" level="FAIL">WebDriverException: Message: unknown error: Element &lt;select id="coupon-deals__sort" class="c-inp qa-order-by"&gt;...&lt;/select&gt; is not clickable at point (1310, 35). Other element would receive the click: &lt;img src="https://www.bukalapak.com/images/default_avatar/thumb/default.jpg" alt="Default" class="c-avatar__image"&gt;
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
-</msg>
-<status status="FAIL" endtime="20190611 17:12:33.412" starttime="20190611 17:12:30.453"></status>
-</kw>
-<status status="FAIL" endtime="20190611 17:12:33.412" starttime="20190611 17:12:25.450"></status>
-</kw>
-<status status="FAIL" endtime="20190611 17:12:33.413" critical="yes" starttime="20190611 17:12:25.449">WebDriverException: Message: unknown error: Element &lt;select id="coupon-deals__sort" class="c-inp qa-order-by"&gt;...&lt;/select&gt; is not clickable at point (1310, 35). Other element would receive the click: &lt;img src="https://www.bukalapak.com/images/default_avatar/thumb/default.jpg" alt="Default" class="c-avatar__image"&gt;
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
-</status>
+<test id="s1-t10" name="7a. Filter - Lokasi Penukaran Filter">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190622 22:24:01.768" critical="yes" starttime="20190622 22:24:01.766">Test execution stopped due to a fatal error.</status>
 </test>
-<test id="s1-t11" name="7f. Filter - Back To Landing Page">
-<kw name="And g_filter.Back To Landing Page" library="g_filter">
-<kw name="Sleep" library="BuiltIn">
-<doc>Pauses the test executed for the given time.</doc>
-<arguments>
-<arg>3s</arg>
-</arguments>
-<msg timestamp="20190611 17:12:36.416" level="INFO">Slept 3 seconds</msg>
-<status status="PASS" endtime="20190611 17:12:36.417" starttime="20190611 17:12:33.415"></status>
-</kw>
-<kw name="Click Element" library="Selenium2Library">
-<doc>Click element identified by ``locator``.</doc>
-<arguments>
-<arg>${back_to_landing_page}</arg>
-</arguments>
-<msg timestamp="20190611 17:12:36.418" level="INFO">Clicking element '//*[@id="reskinned_page"]/div[4]/div/div[1]/div/nav/div/ul/li[1]/a'.</msg>
-<kw name="Capture Page Screenshot" library="Selenium2Library">
-<doc>Takes screenshot of the current page and embeds it into log file.</doc>
-<msg timestamp="20190611 17:12:39.285" html="yes" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-19.png"&gt;&lt;img src="selenium-screenshot-19.png" width="800px"&gt;&lt;/a&gt;</msg>
-<status status="PASS" endtime="20190611 17:12:39.285" starttime="20190611 17:12:37.479"></status>
-</kw>
-<msg timestamp="20190611 17:12:39.286" level="FAIL">WebDriverException: Message: unknown error: Element &lt;a href="/kupon/" class="c-breadcrumb__link router-link-active" itemprop="item" data-no-turbolink=""&gt;...&lt;/a&gt; is not clickable at point (130, 8). Other element would receive the click: &lt;div class="o-layout__item u-6of12"&gt;...&lt;/div&gt;
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
-</msg>
-<status status="FAIL" endtime="20190611 17:12:39.286" starttime="20190611 17:12:36.417"></status>
-</kw>
-<status status="FAIL" endtime="20190611 17:12:39.286" starttime="20190611 17:12:33.414"></status>
-</kw>
-<status status="FAIL" endtime="20190611 17:12:39.286" critical="yes" starttime="20190611 17:12:33.413">WebDriverException: Message: unknown error: Element &lt;a href="/kupon/" class="c-breadcrumb__link router-link-active" itemprop="item" data-no-turbolink=""&gt;...&lt;/a&gt; is not clickable at point (130, 8). Other element would receive the click: &lt;div class="o-layout__item u-6of12"&gt;...&lt;/div&gt;
-  (Session info: chrome=74.0.3729.169)
-  (Driver info: chromedriver=2.46.628411 (3324f4c8be9ff2f70a05a30ebc72ffb013e1a71e),platform=Mac OS X 10.13.6 x86_64)
-</status>
+<test id="s1-t11" name="7b. Filter - Rentang Harga Filter">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190622 22:24:01.770" critical="yes" starttime="20190622 22:24:01.768">Test execution stopped due to a fatal error.</status>
 </test>
-<status status="FAIL" endtime="20190611 17:12:39.289" starttime="20190611 17:08:39.827"></status>
+<test id="s1-t12" name="7c. Filter - Category Filter">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190622 22:24:01.772" critical="yes" starttime="20190622 22:24:01.771">Test execution stopped due to a fatal error.</status>
+</test>
+<test id="s1-t13" name="7d. Filter - Merchant Filter">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190622 22:24:01.774" critical="yes" starttime="20190622 22:24:01.773">Test execution stopped due to a fatal error.</status>
+</test>
+<test id="s1-t14" name="7e. Filter - Back To Landing Page">
+<tags>
+<tag>robot:exit</tag>
+</tags>
+<status status="FAIL" endtime="20190622 22:24:01.776" critical="yes" starttime="20190622 22:24:01.775">Test execution stopped due to a fatal error.</status>
+</test>
+<status status="FAIL" endtime="20190622 22:24:01.805" starttime="20190622 22:21:52.408"></status>
 </suite>
 <statistics>
 <total>
-<stat fail="2" pass="9">Critical Tests</stat>
-<stat fail="2" pass="9">All Tests</stat>
+<stat fail="9" pass="5">Critical Tests</stat>
+<stat fail="9" pass="5">All Tests</stat>
 </total>
 <tag>
+<stat info="combined" fail="1" combined="NOT robot:exit" pass="5">NOT robot:exit</stat>
+<stat fail="8" pass="0">robot:exit</stat>
 </tag>
 <suite>
-<stat fail="2" id="s1" name="All Test" pass="9">All Test</stat>
+<stat fail="9" id="s1" name="All Test" pass="5">All Test</stat>
 </suite>
 </statistics>
 <errors>
