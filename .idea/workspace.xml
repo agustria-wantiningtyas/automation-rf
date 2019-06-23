@@ -3,11 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="4e7e4691-7a30-4b4f-9bae-f12017276531" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/h_Transaction/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/h_Transaction/log.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/h_Transaction/output.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/h_Transaction/output.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/h_Transaction/report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/h_Transaction/report.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/h_Transaction/transaction.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/h_Transaction/transaction.robot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/a_Login/log.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/a_Login/login.robot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/a_Login/output.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/Web/a_Login/report.html" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,34 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot">
+        <entry file="file://$PROJECT_DIR$/Tests/Web/login/login.robot">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="113" column="36" lean-forward="true" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
-              <folding>
-                <element signature="e#0#796#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Web/h_Transaction/transaction.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#404#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Tests/Web/a_Login/login.robot">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="330">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#0#254#0" expanded="true" />
               </folding>
@@ -142,14 +117,16 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="height" value="832" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,20 +168,12 @@
               <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
               <item name="Tests" type="462c0819:PsiDirectoryNode" />
               <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="a_Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="automation-rf" type="b2602c69:ProjectViewProjectNode" />
-              <item name="automation-rf" type="462c0819:PsiDirectoryNode" />
-              <item name="Tests" type="462c0819:PsiDirectoryNode" />
-              <item name="Web" type="462c0819:PsiDirectoryNode" />
-              <item name="h_Transaction" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -328,12 +297,14 @@
       <workItem from="1561212643020" duration="1275000" />
       <workItem from="1561214515136" duration="1459000" />
       <workItem from="1561216414781" duration="1055000" />
-      <workItem from="1561218224415" duration="64000" />
+      <workItem from="1561218224415" duration="222000" />
+      <workItem from="1561274921168" duration="211000" />
+      <workItem from="1561288111136" duration="176000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67125000" />
+    <option name="totallyTimeSpent" value="67670000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,9 +317,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29470673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30329043" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -376,7 +346,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Tests/Web/a_Login/selenium-screenshot-11.png" />
     <entry file="file://$PROJECT_DIR$/Resources/Web/_b_Home_page/a_dashboard_page.robot" />
     <entry file="file://$PROJECT_DIR$/Tests/Web/All_Test/selenium-screenshot-27.png" />
     <entry file="file://$PROJECT_DIR$/Tests/Web/All_Test/selenium-screenshot-28.png" />
@@ -520,26 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/a_Login/a_login.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="56">
-          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="61">
-          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Resources/Web/c_Coupon_Search_by_Location/c_coupon_search_by_location.robot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="86">
@@ -617,19 +566,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Web/a_Login/login.robot">
+    <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="1530">
+          <caret line="113" column="36" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
           <folding>
-            <element signature="e#0#254#0" expanded="true" />
+            <element signature="e#0#796#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Web/h_Transaction/transaction.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
+        <state relative-caret-position="330">
           <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="26" />
           <folding>
             <element signature="e#0#404#0" expanded="true" />
@@ -637,12 +586,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/Web/i_All_Test/all_test.robot">
+    <entry file="file://$PROJECT_DIR$/Resources/Web/a_Login/a_login.robot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="113" column="36" lean-forward="true" selection-start-line="113" selection-start-column="36" selection-end-line="113" selection-end-column="36" />
+        <state relative-caret-position="465">
+          <caret line="31" column="9" lean-forward="true" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
           <folding>
-            <element signature="e#0#796#0" expanded="true" />
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Resources/Web/b_Coupon_Search/b_coupon_search.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="810">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Web/a_Login/login.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#254#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Web/login/login.robot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#0#254#0" expanded="true" />
           </folding>
         </state>
       </provider>

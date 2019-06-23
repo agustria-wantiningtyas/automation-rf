@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot rpa="false" generated="20190623 18:11:59.034" generator="Robot 3.1.1 (Python 2.7.16 on darwin)">
+<suite source="/Users/bukalapak/Documents/Kuliah/Skripsi/Agustria/Github/automation-rf/Tests/Web/login/login.robot" id="s1" name="Login">
+<test id="s1-t1" name="1. Open Bukalapak page">
+<kw name="Given Open Bukalapak page" library="setting_browser">
+<kw name="Set Selenium Speed" library="Selenium2Library">
+<doc>Sets the delay that is waited after each Selenium command.</doc>
+<arguments>
+<arg>1s</arg>
+</arguments>
+<status status="PASS" endtime="20190623 18:11:59.313" starttime="20190623 18:11:59.313"></status>
+</kw>
+<kw name="Open Browser" library="Selenium2Library">
+<doc>Opens a new browser instance to the given ``url``.</doc>
+<arguments>
+<arg>${Prod_URL}</arg>
+<arg>${Browser}</arg>
+</arguments>
+<msg timestamp="20190623 18:11:59.314" level="INFO">Opening browser 'chrome' to base url 'https://www.bukalapak.com'.</msg>
+<status status="PASS" endtime="20190623 18:13:24.134" starttime="20190623 18:11:59.313"></status>
+</kw>
+<kw name="Set Window Size" library="Selenium2Library">
+<doc>Sets current windows size to given ``width`` and ``height``.</doc>
+<arguments>
+<arg>1450</arg>
+<arg>800</arg>
+</arguments>
+<status status="PASS" endtime="20190623 18:13:25.248" starttime="20190623 18:13:24.135"></status>
+</kw>
+<status status="PASS" endtime="20190623 18:13:25.248" starttime="20190623 18:11:59.312"></status>
+</kw>
+<status status="PASS" endtime="20190623 18:13:25.249" critical="yes" starttime="20190623 18:11:59.312"></status>
+</test>
+<test id="s1-t2" name="2. Fill in sign in form with Valid data">
+<kw name="when Fill in sign in form" library="a_login">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>5s</arg>
+</arguments>
+<msg timestamp="20190623 18:13:30.255" level="INFO">Slept 5 seconds</msg>
+<status status="PASS" endtime="20190623 18:13:30.255" starttime="20190623 18:13:25.254"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${signin_menu}</arg>
+</arguments>
+<msg timestamp="20190623 18:13:30.256" level="INFO">Clicking element '//*[@id="login_link"]'.</msg>
+<status status="PASS" endtime="20190623 18:13:32.366" starttime="20190623 18:13:30.255"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+</arguments>
+<msg timestamp="20190623 18:13:32.367" level="INFO">Clicking element '//*[@id="user_session_username"]'.</msg>
+<status status="PASS" endtime="20190623 18:13:34.426" starttime="20190623 18:13:32.367"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${email}</arg>
+<arg>${uname}</arg>
+</arguments>
+<msg timestamp="20190623 18:13:34.428" level="INFO">Typing text 'agustriatyas.testdeal@gmail.com' into text field '//*[@id="user_session_username"]'.</msg>
+<status status="PASS" endtime="20190623 18:13:37.696" starttime="20190623 18:13:34.427"></status>
+</kw>
+<kw name="Click Element" library="Selenium2Library">
+<doc>Click element identified by ``locator``.</doc>
+<arguments>
+<arg>${password}</arg>
+</arguments>
+<msg timestamp="20190623 18:13:37.698" level="INFO">Clicking element '//*[@id="user_session_password"]'.</msg>
+<status status="PASS" endtime="20190623 18:13:39.769" starttime="20190623 18:13:37.697"></status>
+</kw>
+<kw name="Input Text" library="Selenium2Library">
+<doc>Types the given ``text`` into text field identified by ``locator``.</doc>
+<arguments>
+<arg>${password}</arg>
+<arg>${pass}</arg>
+</arguments>
+<msg timestamp="20190623 18:13:39.770" level="INFO">Typing text 'qwerty123' into text field '//*[@id="user_session_password"]'.</msg>
+<status status="PASS" endtime="20190623 18:13:42.883" starttime="20190623 18:13:39.769"></status>
+</kw>
+<status status="PASS" endtime="20190623 18:13:42.883" starttime="20190623 18:13:25.253"></status>
+</kw>
+<status status="PASS" endtime="20190623 18:13:42.883" critical="yes" starttime="20190623 18:13:25.252"></status>
+</test>
+<test id="s1-t3" name="3. Click button Sign In">
+<kw name="And click button sign in" library="a_login">
+<kw name="Click Button" library="Selenium2Library">
+<doc>Clicks button identified by ``locator``.</doc>
+<arguments>
+<arg>${button_masuk}</arg>
+</arguments>
+<msg timestamp="20190623 18:13:42.886" level="INFO">Clicking button 'xpath=//*[@id="new_user_session"]/div[1]/div[5]/button'.</msg>
+<status status="PASS" endtime="20190623 18:13:48.013" starttime="20190623 18:13:42.886"></status>
+</kw>
+<status status="PASS" endtime="20190623 18:13:48.013" starttime="20190623 18:13:42.885"></status>
+</kw>
+<status status="PASS" endtime="20190623 18:13:48.013" critical="yes" starttime="20190623 18:13:42.884"></status>
+</test>
+<test id="s1-t4" name="4. Dashboard page Bukalapak">
+<kw name="Then home page" library="a_login">
+<kw name="Sleep" library="BuiltIn">
+<doc>Pauses the test executed for the given time.</doc>
+<arguments>
+<arg>10s</arg>
+</arguments>
+<msg timestamp="20190623 18:13:58.017" level="INFO">Slept 10 seconds</msg>
+<status status="PASS" endtime="20190623 18:13:58.017" starttime="20190623 18:13:48.016"></status>
+</kw>
+<kw name="Wait Until Element Contains" library="Selenium2Library">
+<doc>Waits until element ``locator`` contains ``text``.</doc>
+<arguments>
+<arg>${logo}</arg>
+<arg>${text_logo}</arg>
+</arguments>
+<status status="PASS" endtime="20190623 18:15:13.668" starttime="20190623 18:13:58.017"></status>
+</kw>
+<status status="PASS" endtime="20190623 18:15:13.669" starttime="20190623 18:13:48.015"></status>
+</kw>
+<status status="PASS" endtime="20190623 18:15:13.669" critical="yes" starttime="20190623 18:13:48.014"></status>
+</test>
+<status status="PASS" endtime="20190623 18:15:13.670" starttime="20190623 18:11:59.038"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="0" pass="4">Critical Tests</stat>
+<stat fail="0" pass="4">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="0" id="s1" name="Login" pass="4">Login</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
